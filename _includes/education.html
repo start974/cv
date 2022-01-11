@@ -16,7 +16,13 @@
             </div>
         {% endif %}
             <div class="university">{{ed.university}}</div> 
-            <div class="time">{{ed.time}}</div>
+
+        {% if ed.time.start %}
+            <div class="time">{{ed.time.start | date: "%Y"}} - 
+                              {{ed.time.end | date: "%Y"}}</div>
+        {% else %}
+            <div class="time">{{ed.time.end | date: "%Y"}}</div>
+        {% endif %}
             <div class="details">{{ed.details}}</div>
         </div>
     {% endfor %}

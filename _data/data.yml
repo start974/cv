@@ -13,7 +13,7 @@ contact:
 
 
 skills:
-  - category: Language
+  - category: Language de programation
     skill: 
       - Coq
       - Why3
@@ -36,41 +36,52 @@ languages:
 education:
   - degree: M2 MPRI
     link: https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=start
-    time: 2021-2022
+    time:
+      start: 2021-08-01T00:00:00Z
+      end:   2022-08-01T00:00:00Z
     university: Université de Paris
     details: Master 2 de recherche en informatique.
 
   - degree: M1 DATA
     link: http://www.informatique.univ-paris-diderot.fr/formations/masters/data/accueil
-    time: 2020-2021
+    time:
+      start: 2020-08-01T00:00:00Z
+      end:   2021-06-01T00:00:00Z
     university: Université de paris
     details: Master 1 spécialiser dans le traitement et l'analyse de donée.
 
   - degree: EPITA
     link: https://www.epita.fr/
-    time: 2018-2020
+    time:
+      start: 2018-07-01T00:00:00Z
+      end:   2020-06-01T00:00:00Z
     university: EPITA Paris
     details: |
       Ecole d'ingénieur en Informatique. <br />
       Spécialité d'analyse et synthèse d'image en 2e année (Majeur IMAGE).
 
   - degree: CPGE TSI
-    time: 2016-2018
+    time:
+      start: 2016-07-01T00:00:00Z
+      end:   2018-05-01T00:00:00Z
     university: Lycée Amiral Bouvet, La Réunion
     details: Classe Preparatoire au grandes école.
 
-  - degree: BAC STI2D-ITEC
-    time: 2016
-    university: Lycée Pierre Poivre, La Réunion
-    details: Bac technologique avec mention bien.
+#  - degree: BAC STI2D-ITEC
+#    time: 
+#      end: 2016-05-01T00:00:00Z
+#    university: Lycée Pierre Poivre, La Réunion
+#    details: Bac technologique avec mention bien.
 
 # Profile
 #profile: |
 
 # Experience
 experience:
-  - role: Stage de recherche preuve formel
-    time: Juin 2021
+  - role: Stage de recherche preuve formelle
+    time:
+      start: 2021-06-03T00:00:00Z
+      end:   2021-07-03T00:00:00Z
     company:
       text: IRIF
       link: https://www.irif.fr/
@@ -89,49 +100,83 @@ experience:
       Coq, Python, alectryon
   
   - role: Stagiaire Data Scientist
-    time: Septembre 2019 - Juillet 2021
+    time:
+      start: 2019-09-16T00:00:00Z
+      end:   2020-07-01T00:00:00Z
     company:
       text: Factonics
       link: factonics.com
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
+      <dl> 
+      <dt> Marchine Learning ingenieur </dt>
+        <dd> Étude bibliographique de mesures de performances 
+             pour la classification et NLP. </dd>
+        <dd> Développement d'un algorithme de classification large scale avec
+             blending et méthode ensembliste. </dd>
+        <dd> Utilisation de divers pipeline NLP 
+            (Embedding, BERT, Tokenizer, Lemmatisation, NER...)</dd>
+        <dd> Implémentation de technique de Topic Modeling.</dd>
+      <dt> Data ingenieur </dt>
+        <dd> Industrialisation via Airflow et Docker de l'algorithme de 
+             classification large scale. </dd>
+        <dd> Parallélisation d'une pipeline de Lemmatisation via Spacy, Stenza. </dd>
+        <dd> Déploiement d'une architecture AWS pour versionning et serving de
+             modèles pour l'inférence</dd>
+      </dl>
     technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
+      Python, Docker, Tensorflow, Spacy
 
-publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
+  - role: Experience en laboratoire de robotique
+    time:
+      start: 2019-01-03T00:00:00Z
+      end:   2020-01-03T00:00:00Z
+    company:
+      text: SEAL (EPITA LSE)
+      link: https://www.seal.epita.fr
+    details: |
+      Conception d’un boîtier étanche de caméra synchronisée pour l’acquisition 
+      d’images stéréo en sous marin.
+      L'objectif étant de réaliser une cartographie de fonds marin via l’algorithme SLAM.<br>
+      Participation au concours ERL (European Robotics League) en Italie.
 
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
+#publications:
+#  - title: Random title of paper. An interesting one.
+#    link: "#"
+#    authors: John E. Doe
+#    conference: Some conference, 2016
 
 projects:
-  - title: Cool Project 
+  - title: RayTracing-ascii
+    link: https://github.com/start974/raytracing-ascii
+    details: |
+      Raytracing avec une sortie au format ascii ou pixmap.
+    language: Ocaml
+  - title: SSG
+    link: https://gitlab.com/Shad_Saw/GLA-H
+    details: |
+      Generateur de site statique à partir de fichiers Markdowns.
+    language: JAVA
+
+  - title: 42SH
     link: #
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+      Programmation d'un SHELL.
+    language: C
 
-  - title: Cool Project 
+  - title: SPIDER
     link: #
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+      Programmation d'un serveur HTTP moderne.
+    language: C++
 
-# Volunteering
-volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
+  - title: Bot - TIC-TAC-TOE
+    link: #
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+      Bot utilisan un algorithme minimax avec elagage alpha beta.
+    language: C++
+
+  - title: Bot - demineur
+    link: #
+    details: |
+      Bot resolvant des grilles de demineur en ligne.
+    language: Python

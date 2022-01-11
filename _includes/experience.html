@@ -11,12 +11,16 @@
                 <a href={{exp.company.link}} class="company">
                     {{exp.company.text}} 
                 </a>
-                <span class="time">{{exp.time}}</span>
+                <span class="time">
+                    {{exp.time.start | date: "%b %Y"}} -
+                    {{exp.time.end   | date: "%b %Y"}}
+                </span>
             </div> 
             <div class="details">{{exp.details}}</div>
-            <p class="technologies">Technologies Used: {{exp.technologies_used}}</p>
+            {% if exp.technologies_used %}
+                <p class="technologies">Technologies Used: {{exp.technologies_used}}</p>
+            {% endif %}
         </div>
-       
     {% endfor %}
 </section>
 {% endif %}
