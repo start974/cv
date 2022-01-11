@@ -18,3 +18,5 @@ exclude:
   - LICENCE
   - README.md
   - shell.nix
+
+theme: jekyll-theme-minimal
