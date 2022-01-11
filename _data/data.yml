@@ -1,69 +1,98 @@
-name: John Doe
+name: Jeremy Damour
 support_dark_mode: true
-fork: true
+fork: false
 
 # Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
-  gitlab: 
+  email: jeremy.damour2@gmail.com
+  linkedin: jeremy-damour
+  github: start974
+  phone: 06 40 87 81 75
+  gitlab: jeremy.damour
   twitter: 
 
-languages:
-  - idiom: English
-  - idiom: Russian
-  - idiom: French
-
-education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
-
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
 
 skills:
-  - category: Backend
+  - category: Language
     skill: 
-      - Go
-      - Rust
-  - category: Frontend
-    skill:
-      - React
-      - Typescript
-  - category: DevOps
+      - Coq
+      - Why3
+      - Haskell
+      - OCaml
+      - C
+      - C++
+      - JAVA
+      - Python
+  - category: Autre
     skill:
       - Docker
-      - Kubernetes 
+      - AWS
+
+
+languages:
+  - idiom: Francais
+  - idiom: Anglais
+
+education:
+  - degree: M2 MPRI
+    link: https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=start
+    time: 2021-2022
+    university: Université de Paris
+    details: Master 2 de recherche en informatique.
+
+  - degree: M1 DATA
+    link: http://www.informatique.univ-paris-diderot.fr/formations/masters/data/accueil
+    time: 2020-2021
+    university: Université de paris
+    details: Master 1 spécialiser dans le traitement et l'analyse de donée.
+
+  - degree: EPITA
+    link: https://www.epita.fr/
+    time: 2018-2020
+    university: EPITA Paris
+    details: |
+      Ecole d'ingénieur en Informatique. <br />
+      Spécialité d'analyse et synthèse d'image en 2e année (Majeur IMAGE).
+
+  - degree: CPGE TSI
+    time: 2016-2018
+    university: Lycée Amiral Bouvet, La Réunion
+    details: Classe Preparatoire au grandes école.
+
+  - degree: BAC STI2D-ITEC
+    time: 2016
+    university: Lycée Pierre Poivre, La Réunion
+    details: Bac technologique avec mention bien.
 
 # Profile
-profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+#profile: |
 
 # Experience
 experience:
-  - role: Software Engineer
-    time: 2020-Present
-    company: Google
+  - role: Stage de recherche preuve formel
+    time: Juin 2021
+    company:
+      text: IRIF
+      link: https://www.irif.fr/
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
+      Participation au développement de
+      <a href=https://github.com/coq-community/hydra-battles>Hydra-Battles</a>,
+      un projet de formalisation Coq documentée et pédagogique.
+      En etant supervisé par Théo Zimmermann et Pierre Castéran.
+      J'ai contribuer lors de ce stage à documenter plusieurs représentation des ordinaux 
+      afin de pouvoir éffectuer la preuve des bataille d´Hydres de Kirby-Paris.
+      Et aussi contribuer á l'utilisation d'<a href =https://github.com/cpitclaudel/alectryon>alectryon</a>
+      pour pouvoir automatiser l'importation de bout de preuve coq dans la documentation.
+      À la suite de mon stage un <a href=https://hal.archives-ouvertes.fr/hal-03404668>papier</a>
+      a été publier à <a href=http://jfla.inria.fr/jfla2022.html>JFLA 2022</a>.
     technologies_used: | 
-      Go, Angular, Typescript, C++
+      Coq, Python, alectryon
   
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
+  - role: Stagiaire Data Scientist
+    time: Septembre 2019 - Juillet 2021
+    company:
+      text: Factonics
+      link: factonics.com
     details: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 

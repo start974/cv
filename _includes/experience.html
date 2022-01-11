@@ -8,7 +8,9 @@
                 {{exp.role}}
             </div>
             <div class="company">
-                {{exp.company}} 
+                <a href={{exp.company.link}} class="company">
+                    {{exp.company.text}} 
+                </a>
                 <span class="time">{{exp.time}}</span>
             </div> 
             <div class="details">{{exp.details}}</div>

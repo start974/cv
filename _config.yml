@@ -1,6 +1,6 @@
-title: CV | A jekyll template
-description:  A beautiful template for your CV.
-url: https://jekyll-cv.stavrospanakakis.com
+title: CV | Jeremy Damour
+description:  Jeremy Damour - curriculum vitae
+url: ''
 baseurl: ''
 theme_skin: blue
 
@@ -11,5 +11,10 @@ sass:
 plugins:
     - jekyll-minifier
 
+include:
+  - _data/data.yml
+
 exclude:
-  - docker-compose.yml
+  - LICENCE
+  - README.md
+  - shell.nix

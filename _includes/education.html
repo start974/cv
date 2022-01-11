@@ -4,9 +4,20 @@
     <div class="title">Education</div>
     {% for ed in education %}
         <div class="education-item">
-            <div class="degree">{{ed.degree}}</div>
+        {% if ed.link %}
+            <a href="{{ed.link}}">
+                <div class="degree">
+                    {{ed.degree}}
+                </div>
+            </a>
+        {% else %}
+            <div class="degree">
+                {{ed.degree}}
+            </div>
+        {% endif %}
             <div class="university">{{ed.university}}</div> 
             <div class="time">{{ed.time}}</div>
+            <div class="details">{{ed.details}}</div>
         </div>
     {% endfor %}
 </section>
