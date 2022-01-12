@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.2.0"
-gem "jekyll-minifier"
+gem "jekyll"
+#gem "jekyll-minifier"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"

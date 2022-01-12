@@ -9,8 +9,8 @@ sass:
   sass_dir: _sass
   style: compressed
 
-plugins:
-    - jekyll-minifier
+    #plugins:
+  #- jekyll-minifier
 
 include:
   - _data/data.yml
