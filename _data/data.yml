@@ -1,0 +1,182 @@
+name: Jeremy Damour
+support_dark_mode: true
+fork: false
+
+# Sidebar
+contact:
+  email: jeremy.damour2@gmail.com
+  linkedin: jeremy-damour
+  github: start974
+  phone: 06 40 87 81 75
+  gitlab: jeremy.damour
+  twitter: 
+
+
+skills:
+  - category: Language de programation
+    skill: 
+      - Coq
+      - Why3
+      - Haskell
+      - OCaml
+      - C
+      - C++
+      - JAVA
+      - Python
+  - category: Autre
+    skill:
+      - Docker
+      - AWS
+
+
+languages:
+  - idiom: Francais
+  - idiom: Anglais
+
+education:
+  - degree: M2 MPRI
+    link: https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=start
+    time:
+      start: 2021-08-01T00:00:00Z
+      end:   2022-08-01T00:00:00Z
+    university: Université de Paris
+    details: Master 2 de recherche en informatique.
+
+  - degree: M1 DATA
+    link: http://www.informatique.univ-paris-diderot.fr/formations/masters/data/accueil
+    time:
+      start: 2020-08-01T00:00:00Z
+      end:   2021-06-01T00:00:00Z
+    university: Université de paris
+    details: Master 1 spécialiser dans le traitement et l'analyse de donée.
+
+  - degree: EPITA
+    link: https://www.epita.fr/
+    time:
+      start: 2018-07-01T00:00:00Z
+      end:   2020-06-01T00:00:00Z
+    university: EPITA Paris
+    details: |
+      Ecole d'ingénieur en Informatique. <br />
+      Spécialité d'analyse et synthèse d'image en 2e année (Majeur IMAGE).
+
+  - degree: CPGE TSI
+    time:
+      start: 2016-07-01T00:00:00Z
+      end:   2018-05-01T00:00:00Z
+    university: Lycée Amiral Bouvet, La Réunion
+    details: Classe Preparatoire au grandes école.
+
+#  - degree: BAC STI2D-ITEC
+#    time: 
+#      end: 2016-05-01T00:00:00Z
+#    university: Lycée Pierre Poivre, La Réunion
+#    details: Bac technologique avec mention bien.
+
+# Profile
+#profile: |
+
+# Experience
+experience:
+  - role: Stage de recherche preuve formelle
+    time:
+      start: 2021-06-03T00:00:00Z
+      end:   2021-07-03T00:00:00Z
+    company:
+      text: IRIF
+      link: https://www.irif.fr/
+    details: |
+      Participation au développement de
+      <a href=https://github.com/coq-community/hydra-battles>Hydra-Battles</a>,
+      un projet de formalisation Coq documentée et pédagogique.
+      En etant supervisé par Théo Zimmermann et Pierre Castéran.
+      J'ai contribuer lors de ce stage à documenter plusieurs représentation des ordinaux 
+      afin de pouvoir éffectuer la preuve des bataille d´Hydres de Kirby-Paris.
+      Et aussi contribuer á l'utilisation d'<a href =https://github.com/cpitclaudel/alectryon>alectryon</a>
+      pour pouvoir automatiser l'importation de bout de preuve coq dans la documentation.
+      À la suite de mon stage un <a href=https://hal.archives-ouvertes.fr/hal-03404668>papier</a>
+      a été publier à <a href=http://jfla.inria.fr/jfla2022.html>JFLA 2022</a>.
+    technologies_used: | 
+      Coq, Python, alectryon
+  
+  - role: Stagiaire Data Scientist
+    time:
+      start: 2019-09-16T00:00:00Z
+      end:   2020-07-01T00:00:00Z
+    company:
+      text: Factonics
+      link: factonics.com
+    details: |
+      <dl> 
+      <dt> Marchine Learning ingenieur </dt>
+        <dd> Étude bibliographique de mesures de performances 
+             pour la classification et NLP. </dd>
+        <dd> Développement d'un algorithme de classification large scale avec
+             blending et méthode ensembliste. </dd>
+        <dd> Utilisation de divers pipeline NLP 
+            (Embedding, BERT, Tokenizer, Lemmatisation, NER...)</dd>
+        <dd> Implémentation de technique de Topic Modeling.</dd>
+      <dt> Data ingenieur </dt>
+        <dd> Industrialisation via Airflow et Docker de l'algorithme de 
+             classification large scale. </dd>
+        <dd> Parallélisation d'une pipeline de Lemmatisation via Spacy, Stenza. </dd>
+        <dd> Déploiement d'une architecture AWS pour versionning et serving de
+             modèles pour l'inférence</dd>
+      </dl>
+    technologies_used: | 
+      Python, Docker, Tensorflow, Spacy
+
+  - role: Experience en laboratoire de robotique
+    time:
+      start: 2019-01-03T00:00:00Z
+      end:   2020-01-03T00:00:00Z
+    company:
+      text: SEAL (EPITA LSE)
+      link: https://www.seal.epita.fr
+    details: |
+      Conception d’un boîtier étanche de caméra synchronisée pour l’acquisition 
+      d’images stéréo en sous marin.
+      L'objectif étant de réaliser une cartographie de fonds marin via l’algorithme SLAM.<br>
+      Participation au concours ERL (European Robotics League) en Italie.
+
+#publications:
+#  - title: Random title of paper. An interesting one.
+#    link: "#"
+#    authors: John E. Doe
+#    conference: Some conference, 2016
+
+projects:
+  - title: RayTracing-ascii
+    link: https://github.com/start974/raytracing-ascii
+    details: |
+      Raytracing avec une sortie au format ascii ou pixmap.
+    language: Ocaml
+  - title: SSG
+    link: https://gitlab.com/Shad_Saw/GLA-H
+    details: |
+      Generateur de site statique à partir de fichiers Markdowns.
+    language: JAVA
+
+  - title: 42SH
+    link: #
+    details: |
+      Programmation d'un SHELL.
+    language: C
+
+  - title: SPIDER
+    link: #
+    details: |
+      Programmation d'un serveur HTTP moderne.
+    language: C++
+
+  - title: Bot - TIC-TAC-TOE
+    link: #
+    details: |
+      Bot utilisan un algorithme minimax avec elagage alpha beta.
+    language: C++
+
+  - title: Bot - demineur
+    link: #
+    details: |
+      Bot resolvant des grilles de demineur en ligne.
+    language: Python
