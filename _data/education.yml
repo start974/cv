@@ -1,38 +1,37 @@
 education:
-  - degree: M2 MPRI
+  - id: 0
+    degree: M2 MPRI
     link: https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=start
     time:
       start: 2021-08-01T00:00:00Z
       end:   2022-08-01T00:00:00Z
     university: Université de Paris
-    details: Master 2 de recherche en informatique.
 
-  - degree: M1 DATA
+  - id: 1
+    degree: M1 DATA
     link: http://www.informatique.univ-paris-diderot.fr/formations/masters/data/accueil
     time:
       start: 2020-08-01T00:00:00Z
       end:   2021-06-01T00:00:00Z
-    university: Université de paris
-    details: Master 1 spécialiser dans le traitement et l'analyse de donée.
+    university: Université de Paris
 
-  - degree: EPITA
+  - id: 2
+    degree: EPITA
     link: https://www.epita.fr/
     time:
       start: 2018-07-01T00:00:00Z
       end:   2020-06-01T00:00:00Z
     university: EPITA Paris
-    details: |
-      Ecole d'ingénieur en Informatique. <br />
-      Spécialité d'analyse et synthèse d'image en 2e année (Majeur IMAGE).
 
-  - degree: CPGE TSI
+  - id: 3
+    degree: CPGE TSI
     time:
       start: 2016-07-01T00:00:00Z
       end:   2018-05-01T00:00:00Z
     university: Lycée Amiral Bouvet, La Réunion
-    details: Classe Preparatoire au grandes école.
 
-#  - degree: BAC STI2D-ITEC
+#  - id: 4
+#    degree: BAC STI2D-ITEC
 #    time: 
 #      end: 2016-05-01T00:00:00Z
 #    university: Lycée Pierre Poivre, La Réunion

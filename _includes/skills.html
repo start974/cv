@@ -1,8 +1,10 @@
 {% assign skills = site.data.side.skills %}
+{% assign skills_l = site.translations[site.lang].skills %}
 {% if skills %}
 <section class="skills">
     {% for sks in skills %}
-        <div class="title">{{sks.category}}</div>
+    {% assign sks_l = skills_l[sks.id] %}
+        <div class="title">{{sks_l.category}}</div>
         {% for sk in sks.skill%}
             <div class="skill">{{sk}}</div>
         {% endfor %}

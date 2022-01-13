@@ -9,7 +9,7 @@ contact:
 
 
 skills:
-  - category: Language de programation
+  - id: 0
     skill: 
       - Coq
       - Why3
@@ -19,12 +19,8 @@ skills:
       - C++
       - JAVA
       - Python
-  - category: Autre
+  - id: 1
     skill:
       - Docker
       - AWS
 
-
-languages:
-  - idiom: Francais
-  - idiom: Anglais

@@ -9,13 +9,16 @@ sass:
   sass_dir: _sass
   style: compressed
 
-    #plugins:
-  #- jekyll-minifier
+plugins:
+  - jekyll-minifier
+  - jekyll-multiple-languages-plugin
+
+languages: ["fr", "en"]
 
 include:
   - _data/data.yml
 
 exclude:
-  - LICENCE
+  - LICENSE
   - README.md
   - shell.nix
