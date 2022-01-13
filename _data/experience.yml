@@ -1,0 +1,62 @@
+# Experience
+experience:
+  - role: Stage de recherche preuve formelle
+    time:
+      start: 2021-06-03T00:00:00Z
+      end:   2021-07-03T00:00:00Z
+    company:
+      text: IRIF
+      link: https://www.irif.fr/
+    details: |
+      Participation au développement de
+      <a href=https://github.com/coq-community/hydra-battles>Hydra-Battles</a>,
+      un projet de formalisation Coq documentée et pédagogique.
+      En étant supervisé par Théo Zimmermann et Pierre Castéran.
+      J'ai contribué lors de ce stage aux preuves de plusieurs théorèmes en Coq.
+      Et aussi contribuer à l'utilisation d'<a href =https://github.com/cpitclaudel/alectryon>alectryon</a>
+      un outil de "litterate programing", pour pouvoir automatiser l'importation de bout de preuve coq dans la documentation.
+      À la suite de mon stage, un <a href=https://hal.archives-ouvertes.fr/hal-03404668>papier</a>
+      a été publié à la <a href=http://jfla.inria.fr/jfla2022.html>JFLA 2022</a>.
+    technologies_used: | 
+      Coq, Python, alectryon
+  
+  - role: Stagiaire Data Scientist
+    time:
+      start: 2019-09-16T00:00:00Z
+      end:   2020-07-01T00:00:00Z
+    company:
+      text: Factonics
+      link: https://factonics.com
+    details: |
+      <dl> 
+      <dt> Marchine Learning ingenieur </dt>
+        <dd> Étude bibliographique de mesures de performances 
+             pour la classification et NLP. </dd>
+        <dd> Développement d'un algorithme de classification large scale avec
+             blending et méthode ensembliste. </dd>
+        <dd> Utilisation de divers pipeline NLP 
+            (Embedding, BERT, Tokenizer, Lemmatisation, NER...)</dd>
+        <dd> Implémentation de technique de Topic Modeling.</dd>
+      <dt> Data ingenieur </dt>
+        <dd> Industrialisation via Airflow et Docker de l'algorithme de 
+             classification large scale. </dd>
+        <dd> Parallélisation d'une pipeline de Lemmatisation via Spacy, Stenza. </dd>
+        <dd> Déploiement d'une architecture AWS pour versionning et serving de
+             modèles pour l'inférence</dd>
+      </dl>
+    technologies_used: | 
+      Python, Docker, Tensorflow, Spacy
+
+  - role: Experience en laboratoire de robotique
+    time:
+      start: 2019-01-03T00:00:00Z
+      end:   2020-01-03T00:00:00Z
+    company:
+      text: SEAL (EPITA LSE)
+      link: https://www.seal.epita.fr
+    details: |
+      Conception d’un boîtier étanche de caméra synchronisée pour l’acquisition 
+      d’images stéréo en sous marin.
+      L'objectif étant de réaliser une cartographie de fonds marin via l’algorithme SLAM.<br>
+      Participation au concours ERL (European Robotics League) en Italie.
+

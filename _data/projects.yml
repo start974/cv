@@ -1,0 +1,35 @@
+projects:
+  - title: RayTracing-ascii
+    link: https://github.com/start974/raytracing-ascii
+    details: |
+      Raytracing avec une sortie au format ascii ou pixmap.
+    language: Ocaml
+  - title: SSG
+    link: https://gitlab.com/Shad_Saw/GLA-H
+    details: |
+      Generateur de site statique à partir de fichiers Markdowns.
+    language: JAVA
+
+  - title: 42SH
+    link: #
+    details: |
+      Programmation d'un SHELL.
+    language: C
+
+  - title: SPIDER
+    link: #
+    details: |
+      Programmation d'un serveur HTTP moderne.
+    language: C++
+
+  - title: Bot - TIC-TAC-TOE
+    link: #
+    details: |
+      Bot utilisan un algorithme minimax avec elagage alpha beta.
+    language: C++
+
+  - title: Bot - demineur
+    link: #
+    details: |
+      Bot resolvant des grilles de demineur en ligne.
+    language: Python
