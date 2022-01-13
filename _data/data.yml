@@ -76,7 +76,7 @@ education:
 # Profile
 profile: |
   Je suis actuellement étudiant dans un master 2 de recherche en informatique (le MPRI).
-  Je suis très intéressé par les assistant á la preuve (COQ) 
+  Je suis très intéressé par les assistant à la preuve (COQ) 
   et à la preuve de programme (Why3).
 
 # Experience
@@ -92,13 +92,12 @@ experience:
       Participation au développement de
       <a href=https://github.com/coq-community/hydra-battles>Hydra-Battles</a>,
       un projet de formalisation Coq documentée et pédagogique.
-      En etant supervisé par Théo Zimmermann et Pierre Castéran.
-      J'ai contribuer lors de ce stage à documenter plusieurs représentation des ordinaux 
-      afin de pouvoir éffectuer la preuve des bataille d´Hydres de Kirby-Paris.
-      Et aussi contribuer á l'utilisation d'<a href =https://github.com/cpitclaudel/alectryon>alectryon</a>
-      pour pouvoir automatiser l'importation de bout de preuve coq dans la documentation.
-      À la suite de mon stage un <a href=https://hal.archives-ouvertes.fr/hal-03404668>papier</a>
-      a été publier à <a href=http://jfla.inria.fr/jfla2022.html>JFLA 2022</a>.
+      En étant supervisé par Théo Zimmermann et Pierre Castéran.
+      J'ai contribué lors de ce stage aux preuves de plusieurs théorèmes en Coq.
+      Et aussi contribuer à l'utilisation d'<a href =https://github.com/cpitclaudel/alectryon>alectryon</a>
+      un outil de "litterate programing", pour pouvoir automatiser l'importation de bout de preuve coq dans la documentation.
+      À la suite de mon stage, un <a href=https://hal.archives-ouvertes.fr/hal-03404668>papier</a>
+      a été publié à la <a href=http://jfla.inria.fr/jfla2022.html>JFLA 2022</a>.
     technologies_used: | 
       Coq, Python, alectryon
   
@@ -108,7 +107,7 @@ experience:
       end:   2020-07-01T00:00:00Z
     company:
       text: Factonics
-      link: factonics.com
+      link: https://factonics.com
     details: |
       <dl> 
       <dt> Marchine Learning ingenieur </dt>

@@ -24,9 +24,15 @@
     font-size: 16px;
     font-weight: 700; 
     color: var(--fg-color);
+    a {
+        color: var(--fg-color);
+    }
 }
 
 @mixin body-text {
     color: var(--fg-color-body);
     font-size: 14px;
+    a {
+        color: var(--fg-color-body-link);
+    }
 }
