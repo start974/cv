@@ -7,6 +7,15 @@ contact:
   gitlab: jeremy.damour
   # twitter: 
 
+translation:
+  fr:
+    sentence: CV aussi disponible en
+    icon_id: fr
+    label: Francais
+  en:
+    sentence: CV also readable in
+    icon_id: gb
+    label: English
 
 skills:
   - id: 0

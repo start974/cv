@@ -1,6 +1,8 @@
+{% assign translation = site.data.side.translation %}
+{% if translation %} 
 <section class="translations">
     <div>
-        <div class="title">{% t translation.sentence %}: </div>
+        <div class="title">{{ translation[site.lang].sentence }}: </div>
         {% for lang in site.languages %}
         {% if lang != site.lang %}
             {% capture link %}{{
@@ -8,13 +10,13 @@
             if lang != site.languages[0] %}/{{lang}}{% endif %}{{
             page.url}}{%endcapture %}
             <div class="lang-item">
-                {% assign trans = site.translations[lang].translation %}
-                <span class ="flag-icon flag-icon-{{trans.icon_id}}"></span>
+                <span class ="flag-icon flag-icon-{{translation[lang].icon_id}}"></span>
                 <a href="{{link}}">
-                    {{trans.label}}
+                    {{translation[lang].label}}
                 </a>
             </div>
         {% endif %}
         {% endfor %}
     </div>
 </section>
+{% endif %}

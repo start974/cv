@@ -1,15 +1,9 @@
-translation:
-  sentence: CV also readable in
-  icon_id: gb
-  label: English
-
 language:
   title: Languages
   idioms:
     - French (mother tongue)
     - English
 
-      
 skills:
   0:
     category: Programming Language

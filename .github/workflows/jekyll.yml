@@ -30,7 +30,7 @@ jobs:
       - name: Set up dependencies
         run: |
           bundle config set path vendor/bundle
-          bundle install --jobs 4 --retry 3
+          bundle install --jobs `nproc`
 
       - name: build site
         run: |
