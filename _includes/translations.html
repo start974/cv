@@ -1,0 +1,20 @@
+<section class="translations">
+    <div>
+        <div class="title">{% t translation.sentence %}: </div>
+        {% for lang in site.languages %}
+        {% if lang != site.lang %}
+            {% capture link %}{{
+            site.baseurl_root }}{%
+            if lang != site.languages[0] %}/{{lang}}{% endif %}{{
+            page.url}}{%endcapture %}
+            <div class="lang-item">
+                {% assign trans = site.translations[lang].translation %}
+                <span class ="flag-icon flag-icon-{{trans.icon_id}}"></span>
+                <a href="{{link}}">
+                    {{trans.label}}
+                </a>
+            </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</section>
