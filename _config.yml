@@ -15,10 +15,8 @@ plugins:
 
 languages: ["fr", "en"]
 
-include:
-  - _data/data.yml
-
 exclude:
   - LICENSE
   - README.md
   - shell.nix
+
