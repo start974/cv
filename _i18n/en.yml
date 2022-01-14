@@ -1,0 +1,112 @@
+translation:
+  sentence: CV also readable in
+  icon_id: gb
+  label: English
+
+language:
+  title: Languages
+  idioms:
+    - French (mother tongue)
+    - English
+
+      
+skills:
+  0:
+    category: Programming Language
+  1:
+    category: Others
+
+
+profile:
+  title: Profile
+  text: |
+    I am a student in a master 2 of research in computer science.
+    I am very interested in proof assistant (COQ) and program of proof (Why3). 
+
+
+education:
+  0:
+    details: Master 2 in computer science research.
+
+  1:
+    details: Master 1 specialized in data processing and analysis.
+
+  2:
+    details: |
+      IT Engineering school. </br>
+      Specialized in picture analysis and synthesis in the 2nd year (IMAGE).
+
+  3:
+    details: Preparatory class.
+
+
+experience:
+  techno_title: Technologis used
+  0:
+    role: Formal proof research internship
+    details: |
+      Participation in the development of
+      <a href=https://github.com/coq-community/hydra-battles>Hydra-Battles</a>,
+      a documented and pedagogical Coq formalization project.
+      I was supervised by Théo Zimmermann and Pierre Castéran.
+      I contributed during this internship to the proofs of several theorems in Coq.
+      And also contributed to use
+      <a href =https://github.com/cpitclaudel/alectryon>alectryon</a>
+      a "litterate programming" tool, to automatize the import of Coq 
+      proofs in the documentation.
+      Following my internship, a 
+      <a href=https://hal.archives-ouvertes.fr/hal-03404668>papier</a>
+      has been published at
+      <a href=http://jfla.inria.fr/jfla2022.html>JFLA 2022</a>.
+      
+  1:
+    role: Data Scientist intership
+    details: |
+      <dl> 
+      <dt> Marchine Learning engeneer </dt>
+        <dd> Literature review of performance measures for classification and NLP.</dd>
+        <dd> Development of a large scale classification algorithm with blending 
+        and assembly method.</dd>
+        <dd> Make NLP pipeline (Embedding, BERT, Tokenizer, Lemmatization, NER...).</dd>
+        <dd> Implementation of a Topic Modeling techniques.
+        </dd>
+      <dt> Data ingeneer </dt>
+        <dd> Industrialisation with Airflow and Docker of large scale classification algrithm. </dd>
+        <dd> Parallélisation of Lemmatization pipeline Spacy, Stenza. </dd>
+        <dd> Deployment of AWS architecture for versioning and serving models for inference. </dd>
+      </dl>
+
+  2:
+    role: Experience in robotics laboratory
+    details: |
+      Design of a waterproof synchronized camera for the acquisition of stereo images underwater.
+      The objective being to carry out a cartography of the sea bed with SLAM algorithm. </br>
+      Participation in the ERL (European Robotics League) competition in Italy.
+
+
+projects:
+  title: Projects
+  0:
+    details: |
+      Raytracing with ascii output or pixmap.
+
+  1:
+    details: |
+      Static website generator from Mardowns files.
+
+  2:
+    details: |
+      Programming a SHELL.
+
+  3:
+    details: |
+      Programming an HTTP serveur.
+
+  4:
+    details: |
+      Bot using minimax algorithm with alpha beta pruning.
+
+  5:
+    details: |
+      Bot solved minesweeper grids online.
+

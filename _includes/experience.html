@@ -1,11 +1,13 @@
 {% assign experience = site.data.experience.experience %}
+{% assign experience_l = site.translations[site.lang].experience %}
 {% if experience %}
 <section class="experiance">
     <h2 class="title">Experience</h2>
     {% for exp in experience %}
+        {% assign exp_l = experience_l[exp.id] %}
         <div class="experience-item">
             <div class="role">
-                {{exp.role}}
+                {{exp_l.role}}
             </div>
             <div class="company">
                 <a href={{exp.company.link}} class="company">
@@ -16,9 +18,9 @@
                     {{exp.time.end   | date: "%b %Y"}}
                 </span>
             </div> 
-            <div class="details">{{exp.details}}</div>
+            <div class="details">{{exp_l.details}}</div>
             {% if exp.technologies_used %}
-                <p class="technologies">Technologies utilisée: {{exp.technologies_used}}</p>
+            <p class="technologies">{{experience_l.techno_title}}: {{exp.technologies_used}}</p>
             {% endif %}
         </div>
     {% endfor %}

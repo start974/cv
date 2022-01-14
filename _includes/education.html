@@ -1,29 +1,25 @@
 {% assign education = site.data.education.education %}
+{% assign education_l = site.translations[site.lang].education %}
 {% if education %}
 <section class="education">
     <div class="title">Education</div>
     {% for ed in education %}
+        {% assign ed_l = education_l[ed.id] %}
         <div class="education-item">
-        {% if ed.link %}
-            <a href="{{ed.link}}">
                 <div class="degree">
-                    {{ed.degree}}
+                {% if ed.link %}
+                    <a href="{{ed.link}}">
+                {% endif %}
+                {{ed.degree}}
                 </div>
             </a>
-        {% else %}
-            <div class="degree">
-                {{ed.degree}}
-            </div>
-        {% endif %}
             <div class="university">{{ed.university}}</div> 
-
+            <div class="time">
         {% if ed.time.start %}
-            <div class="time">{{ed.time.start | date: "%Y"}} - 
-                              {{ed.time.end | date: "%Y"}}</div>
-        {% else %}
-            <div class="time">{{ed.time.end | date: "%Y"}}</div>
+            {{ed.time.start | date: "%Y"}} - 
         {% endif %}
-            <div class="details">{{ed.details}}</div>
+            {{ed.time.end |   date: "%Y"}}</div>
+        <div class="details">{{ ed_l.details }}</div>
         </div>
     {% endfor %}
 </section>

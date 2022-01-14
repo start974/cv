@@ -1,9 +1,9 @@
-{% assign languages = site.data.side.languages %}
-{% if languages %}
+{% assign languages_l = site.translations[site.lang].language %}
+{% if languages_l %}
 <section class="languages">
-    <div class="title">Languages</div>
-    {% for lang in languages %}
-        <div class="idiom">{{lang.idiom}}</div>
+    <div class="title">{{languages_l.title}}</div>
+    {% for lang in languages_l.idioms %}
+        <div class="idiom">{{lang}}</div>
     {% endfor %}
 </section>
 {% endif %}
