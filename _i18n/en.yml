@@ -15,7 +15,7 @@ profile:
   title: Profile
   text: |
     I am a student in a master 2 of research in computer science.
-    I am very interested in proof assistant (COQ) and program of proof (Why3). 
+    I am very interested in proof assistant (COQ) and program of proof (Why3).
 
 
 education:
@@ -37,6 +37,10 @@ education:
 experience:
   techno_title: Technologis used
   0:
+    role: Function synthesis
+    details: |
+
+  1:
     role: Formal proof research internship
     details: |
       Participation in the development of
@@ -46,20 +50,22 @@ experience:
       I contributed during this internship to the proofs of several theorems in Coq.
       And also contributed to use
       <a href =https://github.com/cpitclaudel/alectryon>alectryon</a>
-      a "litterate programming" tool, to automatize the import of Coq 
+      a "litterate programming" tool, to automatize the import of Coq
       proofs in the documentation.
-      Following my internship, a 
+      Following my internship, a
       <a href=https://hal.archives-ouvertes.fr/hal-03404668>papier</a>
       has been published at
       <a href=http://jfla.inria.fr/jfla2022.html>JFLA 2022</a>.
-      
-  1:
+      <br>
+      <a href=/cv/documents/stage_Factonics_2020.pdf>Intership report</a>
+
+  2:
     role: Data Scientist intership
     details: |
-      <dl> 
+      <dl>
       <dt> Marchine Learning engeneer </dt>
         <dd> Literature review of performance measures for classification and NLP.</dd>
-        <dd> Development of a large scale classification algorithm with blending 
+        <dd> Development of a large scale classification algorithm with blending
         and assembly method.</dd>
         <dd> Make NLP pipeline (Embedding, BERT, Tokenizer, Lemmatization, NER...).</dd>
         <dd> Implementation of a Topic Modeling techniques.
@@ -70,7 +76,7 @@ experience:
         <dd> Deployment of AWS architecture for versioning and serving models for inference. </dd>
       </dl>
 
-  2:
+  3:
     role: Experience in robotics laboratory
     details: |
       Design of a waterproof synchronized camera for the acquisition of stereo images underwater.

@@ -1,29 +1,39 @@
 experience:
   - id: 0
     time:
+      start: 2022-03-03T00:00:00Z
+      end:   2022-08-03T00:00:00Z
+    company:
+      text: CEA-LIST
+      link: https://list.cea.fr/fr/
+    technologies_used: |
+      Ocaml, C, FRAMA-C
+
+  - id: 1
+    time:
       start: 2021-06-03T00:00:00Z
       end:   2021-07-03T00:00:00Z
     company:
       text: IRIF
       link: https://www.irif.fr/
-    technologies_used: | 
+    technologies_used: |
       Coq, Python, alectryon
-  
-  - id: 1
+
+  - id: 2
     time:
       start: 2019-09-16T00:00:00Z
       end:   2020-07-01T00:00:00Z
     company:
       text: Factonics
       link: https://factonics.com
-    technologies_used: | 
+    technologies_used: |
       Python, Docker, Tensorflow, Spacy
 
-  - id: 2
+  - id: 3
     time:
       start: 2019-01-03T00:00:00Z
       end:   2020-01-03T00:00:00Z
     company:
       text: SEAL (EPITA LSE)
       link: https://www.seal.epita.fr
-    technologies_used: 
+    technologies_used:

@@ -16,9 +16,9 @@ skills:
 profile:
   title: Profile
   text: |
-      Je suis actuellement étudiant dans un master 2 de recherche en informatique (le MPRI).
-      Je suis très intéressé par les assistant à la preuve (COQ) 
-      et à la preuve de programme (Why3).
+      Je suis actuellement étudiant en master 2 de recherche en informatique (le MPRI)
+      et très intéressé par les assistants de preuve (COQ)
+      ansi qu'à la preuve de programme (Why3).
 
 
 education:
@@ -40,6 +40,23 @@ education:
 experience:
   techno_title: Technologies utilisée
   0:
+    role: Stage de recherche, synthese de fonction
+    details: |
+      Le CEA LIST développe l'outil <a href=http://frama-c.com>FRAMA-C</a>,
+      une plateforme logicielle facilitant le développement d’outils d’analyse de programme C
+      (implamté dans plusieurs greffons).
+      L'un des greffon fournis par FRAMA-C est le greffon E-ACSL,
+      il permet de faire de la vérification à l'exécution.
+      Le but du stage a été d'élargir la classe des annotations exprimables du gréfon
+      E-ACSL afin d’y inclure des fonctions et des prédicats logiques.
+      Ces fonctions et prédicats sont des relations inductives ou axiomatiques,
+      qui expriment des spécifications formelles qui ne sont pas directement exécutables.
+      Afin de développer un outil de traductions de ces fonctions
+      non explicites vers des fonctions explicites (directement exécutables).
+      <br>
+      <a href=/cv/documents/stage_FRAMA_C_2022.pdf>Rapport de stage</a>
+
+  1:
     role: Stage de recherche preuve formelle
     details: |
       Participation au développement de
@@ -52,32 +69,33 @@ experience:
       un outil de "litterate programing", pour pouvoir automatiser l'importation de bout
       de preuve coq dans la documentation.
       À la suite de mon stage, un <a href=https://hal.archives-ouvertes.fr/hal-03404668>papier</a>
-      a été publié à la 
+      a été publié à la
       <a href=http://jfla.inria.fr/jfla2022.html>JFLA 2022</a>.
-  1:
+  2:
     role: Stagiaire Data Scientist
     details: |
-      <dl> 
+      <dl>
       <dt> Marchine Learning ingenieur </dt>
-        <dd> Étude bibliographique de mesures de performances 
+        <dd> Étude bibliographique de mesures de performances
              pour la classification et NLP. </dd>
         <dd> Développement d'un algorithme de classification large scale avec
              blending et méthode ensembliste. </dd>
-        <dd> Utilisation de divers pipeline NLP 
+        <dd> Utilisation de divers pipeline NLP
             (Embedding, BERT, Tokenizer, Lemmatisation, NER...)</dd>
         <dd> Implémentation de technique de Topic Modeling. </dd>
       <dt> Data ingenieur. </dt>
-        <dd> Industrialisation via Airflow et Docker de l'algorithme de 
+        <dd> Industrialisation via Airflow et Docker de l'algorithme de
              classification large scale. </dd>
         <dd> Parallélisation d'une pipeline de Lemmatisation Spacy, Stenza. </dd>
         <dd> Déploiement d'une architecture AWS pour versionning et serving de
              modèles pour l'inférence. </dd>
       </dl>
+      <a href=/cv/documents/stage_Factonics_2020.pdf>Rapport de stage</a>
 
-  2:
+  3:
     role: Experience en laboratoire de robotique
     details: |
-      Conception d’un boîtier étanche de caméra synchronisée pour l’acquisition 
+      Conception d’un boîtier étanche de caméra synchronisée pour l’acquisition
       d’images stéréo en sous marin.
       L'objectif étant de réaliser une cartographie de fonds marin via l’algorithme SLAM.<br>
       Participation au concours ERL (European Robotics League) en Italie.

@@ -1,5 +1,5 @@
 title: CV | Jeremy Damour
-description:  Jeremy Damour - curriculum vitae
+description: Jeremy Damour - curriculum vitae
 domain: start974.github.io
 url: https://start974.github.io
 baseurl: /cv
@@ -18,5 +18,3 @@ languages: ["fr", "en"]
 exclude:
   - LICENSE
   - README.md
-  - shell.nix
-

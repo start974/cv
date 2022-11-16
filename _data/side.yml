@@ -5,7 +5,7 @@ contact:
   github: start974
   phone: 06 40 87 81 75
   gitlab: jeremy.damour
-  # twitter: 
+  # twitter:
 
 translation:
   fr:
@@ -19,7 +19,7 @@ translation:
 
 skills:
   - id: 0
-    skill: 
+    skill:
       - Coq
       - Why3
       - Haskell
@@ -28,8 +28,8 @@ skills:
       - C++
       - JAVA
       - Python
+      - rust
   - id: 1
     skill:
       - Docker
       - AWS
-

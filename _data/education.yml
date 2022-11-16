@@ -4,7 +4,7 @@ education:
     link: https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=start
     time:
       start: 2021-08-01T00:00:00Z
-      end:   2022-08-01T00:00:00Z
+      end:   2022-12-01T00:00:00Z
     university: Université de Paris
 
   - id: 1
@@ -32,7 +32,7 @@ education:
 
 #  - id: 4
 #    degree: BAC STI2D-ITEC
-#    time: 
+#    time:
 #      end: 2016-05-01T00:00:00Z
 #    university: Lycée Pierre Poivre, La Réunion
 #    details: Bac technologique avec mention bien.
