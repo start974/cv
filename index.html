@@ -118,6 +118,8 @@
         
             <div class="skill">Python</div>
         
+            <div class="skill">rust</div>
+        
     
     
         <div class="title">Autres</div>
@@ -157,9 +159,9 @@
     <div class="main">
       <section class="career-profile">
     <h2 class="title">Profile</h2>
-    <div class="details">Je suis actuellement étudiant dans un master 2 de recherche en informatique (le MPRI).
-Je suis très intéressé par les assistant à la preuve (COQ) 
-et à la preuve de programme (Why3).
+    <div class="details">Je suis actuellement étudiant en master 2 de recherche en informatique (le MPRI)
+et très intéressé par les assistants de preuve (COQ)
+ansi qu'à la preuve de programme (Why3).
 </div>
 </section>
 
@@ -168,6 +170,40 @@ et à la preuve de programme (Why3).
 
 <section class="experiance">
     <h2 class="title">Experience</h2>
+    
+        
+        <div class="experience-item">
+            <div class="role">
+                Stage de recherche, synthese de fonction
+            </div>
+            <div class="company">
+                <a href=https://list.cea.fr/fr/ class="company">
+                    CEA-LIST 
+                </a>
+                <span class="time">
+                    Mar 2022 -
+                    Aug 2022
+                </span>
+            </div> 
+            <div class="details">Le CEA LIST développe l'outil <a href=http://frama-c.com>FRAMA-C</a>,
+une plateforme logicielle facilitant le développement d’outils d’analyse de programme C
+(implamté dans plusieurs greffons).
+L'un des greffon fournis par FRAMA-C est le greffon E-ACSL,
+il permet de faire de la vérification à l'exécution.
+Le but du stage a été d'élargir la classe des annotations exprimables du gréfon
+E-ACSL afin d’y inclure des fonctions et des prédicats logiques.
+Ces fonctions et prédicats sont des relations inductives ou axiomatiques,
+qui expriment des spécifications formelles qui ne sont pas directement exécutables.
+Afin de développer un outil de traductions de ces fonctions
+non explicites vers des fonctions explicites (directement exécutables).
+<br>
+<a href=/cv/documents/stage_FRAMA_C_2022.pdf>Rapport de stage</a>
+</div>
+            
+            <p class="technologies">Technologies utilisée: Ocaml, C, FRAMA-C
+</p>
+            
+        </div>
     
         
         <div class="experience-item">
@@ -193,7 +229,7 @@ Et aussi contribuer à l'utilisation d'
 un outil de "litterate programing", pour pouvoir automatiser l'importation de bout
 de preuve coq dans la documentation.
 À la suite de mon stage, un <a href=https://hal.archives-ouvertes.fr/hal-03404668>papier</a>
-a été publié à la 
+a été publié à la
 <a href=http://jfla.inria.fr/jfla2022.html>JFLA 2022</a>.
 </div>
             
@@ -216,22 +252,23 @@ a été publié à la
                     Jul 2020
                 </span>
             </div> 
-            <div class="details"><dl> 
+            <div class="details"><dl>
 <dt> Marchine Learning ingenieur </dt>
-  <dd> Étude bibliographique de mesures de performances 
+  <dd> Étude bibliographique de mesures de performances
        pour la classification et NLP. </dd>
   <dd> Développement d'un algorithme de classification large scale avec
        blending et méthode ensembliste. </dd>
-  <dd> Utilisation de divers pipeline NLP 
+  <dd> Utilisation de divers pipeline NLP
       (Embedding, BERT, Tokenizer, Lemmatisation, NER...)</dd>
   <dd> Implémentation de technique de Topic Modeling. </dd>
 <dt> Data ingenieur. </dt>
-  <dd> Industrialisation via Airflow et Docker de l'algorithme de 
+  <dd> Industrialisation via Airflow et Docker de l'algorithme de
        classification large scale. </dd>
   <dd> Parallélisation d'une pipeline de Lemmatisation Spacy, Stenza. </dd>
   <dd> Déploiement d'une architecture AWS pour versionning et serving de
        modèles pour l'inférence. </dd>
 </dl>
+<a href=/cv/documents/stage_Factonics_2020.pdf>Rapport de stage</a>
 </div>
             
             <p class="technologies">Technologies utilisée: Python, Docker, Tensorflow, Spacy
@@ -253,7 +290,7 @@ a été publié à la
                     Jan 2020
                 </span>
             </div> 
-            <div class="details">Conception d’un boîtier étanche de caméra synchronisée pour l’acquisition 
+            <div class="details">Conception d’un boîtier étanche de caméra synchronisée pour l’acquisition
 d’images stéréo en sous marin.
 L'objectif étant de réaliser une cartographie de fonds marin via l’algorithme SLAM.<br>
 Participation au concours ERL (European Robotics League) en Italie.
