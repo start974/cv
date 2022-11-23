@@ -12,15 +12,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Use Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
 
       - name: Use Ruby
         uses: actions/setup-ruby@v1
         with:
           bundler-cache: true
+          cache-version: 1
 
       - name: Set up dependencies
         run: |
