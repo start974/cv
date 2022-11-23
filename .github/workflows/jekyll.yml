@@ -14,18 +14,13 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: "Cache: Set up bundler cache"
-        uses: actions/cache@v2
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: ${{ runner.os }}-gems-
-
       - name: Use Node.js
         uses: actions/setup-node@v1
 
       - name: Use Ruby
         uses: actions/setup-ruby@v1
+        with:
+          bundler-cache: true
 
       - name: Set up dependencies
         run: |
