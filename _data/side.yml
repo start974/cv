@@ -28,8 +28,9 @@ skills:
       - C++
       - JAVA
       - Python
-      - rust
+      - Rust
   - id: 1
     skill:
+      - Git
       - Docker
       - AWS
