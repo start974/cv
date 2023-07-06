@@ -1,43 +1,52 @@
+lang: "en"
 language:
   title: Languages
   idioms:
     - French (mother tongue)
     - English
-
 skills:
   0:
     category: Programming Language
   1:
     category: Others
-
-
 profile:
   title: Profile
   text: |
     I am a student in a master 2 of research in computer science.
     I am very interested in proof assistant (COQ) and program of proof (Why3).
-
-
 education:
-  0:
+  4:
     details: Master 2 in computer science research.
-
-  1:
+  3:
     details: Master 1 specialized in data processing and analysis.
-
   2:
     details: |
       IT Engineering school. </br>
       Specialized in picture analysis and synthesis in the 2nd year (IMAGE).
-
-  3:
+  1:
     details: Preparatory class.
-
-
+  0:
+    details: Bac STI2D specialising in ITEC, with distinction
 experience:
   techno_title: Technologis used
-  0:
-    role: Function synthesis
+  4:
+    role: Software engineering internship, abstract interpretation
+    details: |
+      Development of
+      <a href=http://www.mathworks.com/products/polyspace/index.html>Polyspace</a>,
+      a static analysis tool developed and commercialized by
+      <a heref=https://mathworks.com =>Mathworks</a>.
+      It uses formal methods, more specifically abstract interpretation,
+      to mathematically prove the absence of a large cathegory of
+      runtime errors in C, C++ and Ada programs.
+      Polyspace comes with several products including Code Prover,
+      which aims to prove the absence of runtime errors
+      and Bug Finder, which aims ft finding some bugs.
+      The goal of this internship is to conceive and prototype a methodology
+      to merge abstract interpretation and model checking techniques
+      within the industrial static analyzer Polyspace.
+  3:
+    role: Research internship, function synthesis
     details: |
       CEA LIST develops <a href=http://frama-c.com>FRAMA-C</a>,
       a software platform facilitating the development of C
@@ -52,9 +61,8 @@ experience:
       functions to explicit functions(directly executable).
       <br>
       <a href=/cv/documents/stage_FRAMA_C_2022.pdf>Internship report</a>
-
-  1:
-    role: Formal proof research internship
+  2:
+    role: Research internship, formal proof
     details: |
       Participation in the development of
       <a href=https://github.com/coq-community/hydra-battles>Hydra-Battles</a>,
@@ -69,8 +77,7 @@ experience:
       <a href=https://hal.archives-ouvertes.fr/hal-03404668>papier</a>
       has been published at
       <a href=http://jfla.inria.fr/jfla2022.html>JFLA 2022</a>.
-
-  2:
+  1:
     role: Data Scientist intership
     details: |
       <dl>
@@ -87,38 +94,29 @@ experience:
         <dd> Deployment of AWS architecture for versioning and serving models for inference. </dd>
       </dl>
       <a href=/cv/documents/stage_Factonics_2020.pdf>Intership report</a>
-
-  3:
+  0:
     role: Experience in robotics laboratory
     details: |
       Design of a waterproof synchronized camera for the acquisition of stereo images underwater.
       The objective being to carry out a cartography of the sea bed with SLAM algorithm. </br>
       Participation in the ERL (European Robotics League) competition in Italy.
-
-
 projects:
   title: Projects
   0:
     details: |
       Raytracing with ascii output or pixmap.
-
   1:
     details: |
       Static website generator from Mardowns files.
-
   2:
     details: |
       Programming a SHELL.
-
   3:
     details: |
       Programming an HTTP serveur.
-
   4:
     details: |
       Bot using minimax algorithm with alpha beta pruning.
-
   5:
     details: |
       Bot solved minesweeper grids online.
-

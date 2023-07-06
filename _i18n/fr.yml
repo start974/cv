@@ -1,45 +1,53 @@
-
+lang: "fr"
 language:
   title: Languages
   idioms:
     - Francais
     - Anglais
-
 skills:
   0:
     category: Language de programation
-
   1:
     category: Autres
-
-
 profile:
   title: Profile
   text: |
-      Je suis actuellement étudiant en master 2 de recherche en informatique (le MPRI)
-      et très intéressé par les assistants de preuve (COQ)
-      ansi qu'à la preuve de programme (Why3).
-
-
+    Je suis actuellement étudiant en master 2 de recherche en informatique (le MPRI)
+    et très intéressé par les assistants de preuve (COQ)
+    ansi qu'à la preuve de programme (Why3).
 education:
-  0:
+  4:
     details: Master 2 de recherche en informatique.
-
-  1:
+  3:
     details: Master 1 spécialiser dans le traitement et l'analyse de donée.
-
   2:
     details: |
       Ecole d'ingénieur en Informatique. <br />
       Spécialité d'analyse et synthèse d'image en 2e année (Majeur IMAGE).
-
-  3:
+  1:
     details: Classe Preparatoire au grandes école.
-
-
+  0:
+    details: Bac STI2D spécialité ITEC, mention Bien
 experience:
   techno_title: Technologies utilisée
-  0:
+  4:
+    role: Stage d'ingénierie logicielle, analyse par interprétation abstraite
+    details: |
+      Développement de
+      <a href=http://www.mathworks.com/products/polyspace/index.html>Polyspace</a>
+      ,un outil d'analyse statique dévelloper et commercialiser par
+      <a heref=https://mathworks.com =>Mathworks</a>
+      . Il utilise des méthodes formelles, plus particulièrement l'interprétation abstraite,
+      pour prouver mathématiquement l'absence d'une grande catégorie d'erreurs d'exécutiondans
+      dans les programmes C, C++ et Ada.
+      Polyspace vient avec plusieurs produits dont
+      Code Prover, qui vise à prouver l'absence d'erreurs d'exécution
+      et Bug Finder, qui vise à trouver des bogues.
+      L'objectif du stage a été de concevoir et de prototyper
+      une méthodologie permettant d'utiliser l'interprétation abstraite
+      et les techniques de vérification de Model Checking dans
+      l'analyseur statique industriel Polyspace.
+  3:
     role: Stage de recherche, synthese de fonction
     details: |
       Le CEA LIST développe l'outil <a href=http://frama-c.com>FRAMA-C</a>,
@@ -55,9 +63,8 @@ experience:
       non explicites vers des fonctions explicites (directement exécutables).
       <br>
       <a href=/cv/documents/stage_FRAMA_C_2022.pdf>Rapport de stage</a>
-
-  1:
-    role: Stage de recherche preuve formelle
+  2:
+    role: Stage de recherche, preuve formelle
     details: |
       Participation au développement de
       <a href=https://github.com/coq-community/hydra-battles>Hydra-Battles</a>,
@@ -71,7 +78,7 @@ experience:
       À la suite de mon stage, un <a href=https://hal.archives-ouvertes.fr/hal-03404668>papier</a>
       a été publié à la
       <a href=http://jfla.inria.fr/jfla2022.html>JFLA 2022</a>.
-  2:
+  1:
     role: Stagiaire Data Scientist
     details: |
       <dl>
@@ -91,39 +98,30 @@ experience:
              modèles pour l'inférence. </dd>
       </dl>
       <a href=/cv/documents/stage_Factonics_2020.pdf>Rapport de stage</a>
-
-  3:
+  0:
     role: Experience en laboratoire de robotique
     details: |
       Conception d’un boîtier étanche de caméra synchronisée pour l’acquisition
       d’images stéréo en sous marin.
       L'objectif étant de réaliser une cartographie de fonds marin via l’algorithme SLAM.<br>
       Participation au concours ERL (European Robotics League) en Italie.
-
-
 projects:
   title: Projets
   0:
     details: |
       Raytracing avec une sortie au format ascii ou pixmap.
-
   1:
     details: |
       Generateur de site statique à partir de fichiers Markdowns.
-
   2:
     details: |
       Programmation d'un SHELL.
-
   3:
     details: |
       Programmation d'un serveur HTTP moderne.
-
   4:
     details: |
       Bot utilisant un algorithme minimax avec elagage alpha beta.
-
   5:
     details: |
       Bot resolvant des grilles de demineur en ligne.
-

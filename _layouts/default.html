@@ -1,6 +1,7 @@
 {% assign data = site.data.data %}
+{% assign lang = site.translations[site.lang].lang %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang={{lang}}>
 {% include head.html %}
 <body>
     {{content}}
