@@ -1,7 +1,9 @@
+@use "mixins";
+
 .translations {
     margin-bottom: 20px;
     .title {
-        @include body-text;
+        @include mixins.body-text;
         font-weight: bold;
     }
     .lang-item {
@@ -16,7 +18,7 @@
             text-decoration: none;
             padding-top: 4px;
             padding-left: 4px;
-            @include body-text;
+            @include mixins.body-text;
             &:hover {
                 text-decoration: underline;
             }

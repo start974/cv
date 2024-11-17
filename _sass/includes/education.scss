@@ -1,21 +1,23 @@
+@use "mixins";
+
 .education {
     .title {
-        @include header;
+        @include mixins.header;
     }
     .education-item {
         margin-bottom: 20px;
         .degree {
-            @include sub-header;
+            @include mixins.sub-header;
         }
         .university {
-            @include body-text;
+            @include mixins.body-text;
             font-weight: bold;
         }
         .time {
-            @include body-text;
+            @include mixins.body-text;
         }
         .details {
-            @include body-text;
+            @include mixins.body-text;
         }
     }
 }
