@@ -1,0 +1,19 @@
+{% assign flag = site.data.icons.flag %}
+
+<div class="translations">
+  <div class = "lang-item">
+  {% for lang in site.languages %}
+    {% if lang != site.lang %}
+      {% assign icon = flag[lang] %}
+      {% capture link %}
+        {{ site.baseurl_root }}/{% if lang != site.languages[0] %}{{lang}}/{% endif %}
+      {% endcapture %}
+      <a href="{{link}}">
+        <span class = "flag-icon flag-icon-{{icon}}"></span>
+        <span class = "title"> {{lang | upcase}} version </span>
+      </a>
+    {% endif %}
+  {% endfor %}
+  <br >
+  </div>
+</div>

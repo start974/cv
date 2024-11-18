@@ -3,10 +3,11 @@
 .translations {
   margin-bottom: 20px;
 
-  /*    .title {*/
-  /*@include mixins.body-text;*/
-  /*font-weight: bold;*/
-  /*}*/
+  .title {
+    @include mixins.body-text;
+    font-weight: bold;
+  }
+
   .lang-item {
     display: flex;
     align-items: center;
