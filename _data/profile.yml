@@ -1,0 +1,24 @@
+title:
+  fr: Profile
+  en: Profile
+
+text:
+  fr: |
+    Je suis doctorant au CEA-List, où je travaille sur
+    <a href=https://frama-c.com/>Frama-C</a>
+    <a href=https://frama-c.com/fc-plugins/wp.html> WP</a>.
+    Je m'intéresse particulièrement à la preuve déductive
+    de programmes (<a href=https://frama-c.com/fc-plugins/wp.html>Frama-C WP</a>,
+    <a href=https://www.why3.org/>Why3</a>) et de manière plus générale,
+    à la preuve assistée par des assistants de preuve tels que
+    <a href=https://coq.inria.fr/>Coq</a>.
+
+  en: |
+    I am a PhD student at CEA-List, where I work on
+    <a href=https://frama-c.com/>Frama-C</a>
+    <a href=https://frama-c.com/fc-plugins/wp.html> WP</a>.
+    I am particularly interested in deductive program verification (<a href=https://frama-c.com/fc-plugins/wp.html>Frama-C WP</a>,
+    <a href=https://www.why3.org/>Why3</a>) and,
+    more generally, in proof using proof assistants such as
+    <a href=https://coq.inria.fr/>Coq</a>.
+

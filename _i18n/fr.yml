@@ -1,16 +1,5 @@
 lang: "fr"
 icon: fr
-skills:
-  0:
-    category: Language de programation
-  1:
-    category: Autres
-profile:
-  title: Profile
-  text: |
-    Je suis actuellement étudiant en master 2 de recherche en informatique (le MPRI)
-    et très intéressé par les assistants de preuve (COQ)
-    ansi qu'à la preuve de programme (Why3).
 education:
   4:
     details: Master 2 de recherche en informatique.

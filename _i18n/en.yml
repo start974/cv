@@ -1,15 +1,6 @@
 lang: "en"
 icon: gb
-skills:
-  0:
-    category: Programming Language
-  1:
-    category: Others
-profile:
-  title: Profile
-  text: |
-    I am a student in a master 2 of research in computer science.
-    I am very interested in proof assistant (COQ) and program of proof (Why3).
+
 education:
   4:
     details: Master 2 in computer science research.
