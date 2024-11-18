@@ -1,28 +1,35 @@
-{% assign experience = site.data.experience.experience %}
-{% assign experience_l = site.translations[site.lang].experience %}
-{% if experience %}
+{% assign experience = site.data.experience %}
+{% assign title = experience.title[site.lang] %}
+{% assign techno_title = experience.techno_title[site.lang] %}
+{% assign list = experience.list %}
+
+{% if list %}
 <section class="experiance">
-    <h2 class="title">Experience</h2>
-    {% for exp in experience %}
-        {% assign exp_l = experience_l[exp.id] %}
-        <div class="experience-item">
-            <div class="role">
-                {{exp_l.role}}
-            </div>
-            <div class="company">
-                <a href={{exp.company.link}} class="company">
-                    {{exp.company.text}} 
-                </a>
-                <span class="time">
-                    {{exp.time.start | date: "%b %Y"}} -
-                    {{exp.time.end   | date: "%b %Y"}}
-                </span>
-            </div> 
-            <div class="details">{{exp_l.details}}</div>
-            {% if exp.technologies_used %}
-            <p class="technologies">{{experience_l.techno_title}}: {{exp.technologies_used}}</p>
-            {% endif %}
-        </div>
-    {% endfor %}
+  <h2 class="title">{{title}}</h2>
+  {% for experience in list %}
+    {% assign role = experience.role[site.lang] %}
+    {% assign details = experience.details[site.lang] %}
+    {% assign company = experience.company %}
+    {% assign time = experience.time %}
+    {% assign technos = experience.technologies_used %}
+    <div class="experience-item">
+      <div class="role"> {{role}} </div>
+      <div class="company">
+        <a href={{company.link}} class="company">
+          {{company.text}}
+        </a>
+        <span class="time">
+          {{time.start | date: "%b %Y"}} -
+          {{time.end | date: "%b %Y"}}
+        </span>
+      </div>
+      <div class="details"> {{details}} </div>
+      {% if technos %}
+        <p class="technologies">
+          {{techno_title}}: {{technos | join: ", "}}.
+          </p>
+      {% endif %}
+    </div>
+  {% endfor %}
 </section>
 {% endif %}

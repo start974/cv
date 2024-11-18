@@ -1,48 +1,262 @@
-experience:
-  - id: 4
-    time:
-      start: 2023-03-03T00:00:00Z
-      end:   2023-08-03T00:00:00Z
-    company:
-      text: MathWorks
-      link: https://mathworks.com
-    technologies_used: |
-      Ocaml, SML, C, C++, Polyspace
-  - id: 3
-    time:
-      start: 2022-03-03T00:00:00Z
-      end:   2022-08-03T00:00:00Z
+title:
+  fr : Experience
+  en : Experience
+
+techno_title:
+  fr: Technologies utilisée
+  en: Technologis used
+
+list:
+  - role:
+      fr: Thése sur la formalisation d'un modele mémoire pour le language C
+      en: PHD on the formalization of a memory model for the C language.
     company:
       text: CEA-LIST
       link: https://list.cea.fr/fr/
-    technologies_used: |
-      Ocaml, C, FRAMA-C
+    time:
+      start: 2023-11-03T00:00:00Z
+      end:   2026-11-03T00:00:00Z
+    details:
+      fr: |
+        La preuve déductive en logique de Hoare pour des programmes manipulant
+        des pointeurs requiert une modélisation logique précise de la mémoire.
+        Concevoir un modèle mémoire efficace pour la vérification implique de
+        trouver un équilibre entre la puissance expressive du modèle et
+        la complexité des preuves associées. Dans Frama-C/WP, un outil largement
+        utilisé dans l'industrie pour la vérification de programmes C,
+        nous cherchons à développer un nouveau modèle mémoire basé sur
+        une cartographie des accès mémoire.
+        Cela nécessite une analyse d'alias enrichie par des méta-données
+        caractérisant la nature des accès. Une analyse modulaire est indispensable,
+        assortie d'annotations permettant d'ajuster sa précision,
+        ainsi que des fondations sémantiques solides pour garantir la preuve
+        de sa correction. L'analyseur, sa formalisation et la preuve de correction
+        sémantique sont intégralement développés avec l'assistant de preuve Coq.
 
-  - id: 2
+      en: |
+        Deductive verification in Hoare logic for programs manipulating pointers
+        requires an accurate logical modeling of memory. Designing an efficient
+        memory model for verification involves finding a balance between the
+        expressive power of the model and the complexity of the associated proofs.
+        In Frama-C/WP, a tool widely used in the industry for the verification of C
+        programs, we aim to develop a new memory model based on a mapping of memory
+        accesses. This requires an alias analysis enriched with metadata that
+        characterizes the nature of the accesses. A modular analysis is essential,
+        complemented by annotations to adjust its precision, as well as solid
+        semantic foundations to ensure the proof of its correctness. The analyzer,
+        its formalization, and the proof of semantic correctness are fully developed
+        using the Coq proof assistant.
+
+    technologies_used:
+      - Coq
+      - C
+      - Ocaml
+      - Frama-C WP
+
+  - role:
+      fr: Stage d'ingénierie logicielle, analyse par interprétation abstraite
+      en: Software engineering internship, abstract interpretation
+    company:
+      text: MathWorks
+      link: https://mathworks.com
+    time:
+      start: 2023-03-03T00:00:00Z
+      end:   2023-08-03T00:00:00Z
+    details:
+      fr: |
+        Développement de
+        <a href=http://www.mathworks.com/products/polyspace/index.html>Polyspace</a>,
+        un outil d'analyse statique dévelloper et commercialiser par
+        <a heref=https://mathworks.com>Mathworks</a>.
+        Il utilise des méthodes formelles, plus particulièrement
+        l'interprétation abstraite, pour prouver mathématiquement l'absence
+        d'une grande catégorie d'erreurs d'exécutiondans dans les
+        programmes C, C++ et Ada.
+        Polyspace vient avec plusieurs produits dont Code Prover,
+        qui vise à prouver l'absence d'erreurs d'exécution et Bug Finder,
+        qui vise à trouver des bogues.
+        L'objectif du stage a été de concevoir et de prototyper
+        une méthodologie permettant d'utiliser l'interprétation abstraite
+        et les techniques de vérification de Model Checking dans
+        l'analyseur statique industriel Polyspace.
+      en: |
+        Development of
+        <a href=http://www.mathworks.com/products/polyspace/index.html>Polyspace</a>,
+        a static analysis tool developed and commercialized by
+        <a heref=https://mathworks.com>Mathworks</a>.
+        It uses formal methods, more specifically abstract interpretation,
+        to mathematically prove the absence of a large cathegory of
+        runtime errors in C, C++ and Ada programs.
+        Polyspace comes with several products including Code Prover,
+        which aims to prove the absence of runtime errors
+        and Bug Finder, which aims ft finding some bugs.
+        The goal of this internship is to conceive and prototype a methodology
+        to merge abstract interpretation and model checking techniques
+        within the industrial static analyzer Polyspace.
+    technologies_used:
+      - Ocaml
+      - SML
+      - C
+      - C++
+      - Polyspace
+
+  - role:
+      fr: Stage de recherche, synthese de fonction
+      en: Research internship, function synthesis
+    company:
+      text: CEA-LIST
+      link: https://list.cea.fr/fr/
+    time:
+      start: 2022-03-03T00:00:00Z
+      end:   2022-08-03T00:00:00Z
+    details:
+      fr: |
+        Le CEA LIST développe l'outil <a href=http://frama-c.com>FRAMA-C</a>,
+        une plateforme logicielle facilitant le développement d’outils
+        d’analyse de programme C (implamté dans plusieurs greffons).
+        L'un des greffon fournis par FRAMA-C est le greffon E-ACSL,
+        il permet de faire de la vérification à l'exécution.
+        Le but du stage a été d'élargir la classe des annotations exprimables
+        du gréfon E-ACSL afin d’y inclure des fonctions et des prédicats logiques.
+        Ces fonctions et prédicats sont des relations inductives ou axiomatiques,
+        qui expriment des spécifications formelles qui ne sont pas directement exécutables.
+        Afin de développer un outil de traductions de ces fonctions
+        non explicites vers des fonctions explicites (directement exécutables).
+        <br>
+        <a href=/cv/documents/stage_FRAMA_C_2022.pdf>Rapport de stage</a>
+      en: |
+        CEA LIST develops <a href=http://frama-c.com>Frama-C</a>,
+        a software platform facilitating the development of C
+        program analysis tools (implemented in several plugins).
+        One of the plugins provided by Frama-C is E-ACSL,
+        it allows to do runtime assertion checking.
+        The goal of the internship was to extend the class of expressible
+        annotations of the E-ACSL to include logical functions and predicates.
+        These functions and predicates are inductive or axiomatic relations,
+        which express formal specifications that are not directly executable.
+        In order to develop a tool for converting these
+        functions to explicit functions(directly executable).
+        <br>
+        <a href=/cv/documents/stage_FRAMA_C_2022.pdf>Internship report</a>
+    technologies_used:
+      - Ocaml
+      - C
+      - Frama-C
+
+  - role:
+      en: Research internship, formal proof
+      fr: Stage de recherche, preuve formelle
+  - company:
+      text: IRIF
+      link: https://www.irif.fr/
     time:
       start: 2021-06-03T00:00:00Z
       end:   2021-07-03T00:00:00Z
-    company:
-      text: IRIF
-      link: https://www.irif.fr/
-    technologies_used: |
-      Coq, Python, alectryon
+    details:
+      fr: |
+        Participation au développement de
+        <a href=https://github.com/coq-community/hydra-battles>Hydra-Battles</a>,
+        un projet de formalisation Coq documentée et pédagogique.
+        J'ai contribué lors de ce stage aux preuves de plusieurs théorèmes en Coq.
+        Et aussi contribuer à l'utilisation d'
+        <a href =https://github.com/cpitclaudel/alectryon>alectryon</a>
+        un outil de "litterate programing", pour pouvoir automatiser l'importation de bout
+        de preuve coq dans la documentation.
+        À la suite de mon stage, un <a href=https://hal.archives-ouvertes.fr/hal-03404668>papier</a>
+        a été publié à la
+        <a href=http://jfla.inria.fr/jfla2022.html>JFLA 2022</a>.
+      en : |
+        Participation in the development of
+        <a href=https://github.com/coq-community/hydra-battles>Hydra-Battles</a>,
+        a documented and pedagogical Coq formalization project.
+        I contributed during this internship to the proofs of several theorems in Coq.
+        And also contributed to use
+        <a href =https://github.com/cpitclaudel/alectryon>alectryon</a>
+        a "litterate programming" tool, to automatize the import of Coq
+        proofs in the documentation.
+        Following my internship, a
+        <a href=https://hal.archives-ouvertes.fr/hal-03404668>papier</a>
+        has been published at
+        <a href=http://jfla.inria.fr/jfla2022.html>JFLA 2022</a>.
+    technologies_used:
+      - Coq
+      - Python
+      - Latex
+      - Alectryon
 
-  - id: 1
-    time:
-      start: 2019-09-16T00:00:00Z
-      end:   2020-07-01T00:00:00Z
+  - role:
+      fr: Stagiaire Data Scientist
+      en: Data Scientist intership
     company:
       text: Factonics
       link: https://factonics.com
-    technologies_used: |
-      Python, Docker, Tensorflow, Spacy
-
-  - id: 0
     time:
-      start: 2019-01-03T00:00:00Z
-      end:   2020-01-03T00:00:00Z
+      start: 2019-09-16T00:00:00Z
+      end:   2020-07-01T00:00:00Z
+    details:
+      fr: |
+        <dl>
+        <dt> Marchine Learning ingenieur </dt>
+          <dd> Étude bibliographique de mesures de performances
+               pour la classification et NLP. </dd>
+          <dd> Développement d'un algorithme de classification large scale avec
+               blending et méthode ensembliste. </dd>
+          <dd> Utilisation de divers pipeline NLP
+              (Embedding, BERT, Tokenizer, Lemmatisation, NER...)</dd>
+          <dd> Implémentation de technique de Topic Modeling. </dd>
+        <dt> Data ingenieur. </dt>
+          <dd> Industrialisation via Airflow et Docker de l'algorithme de
+               classification large scale. </dd>
+          <dd> Parallélisation d'une pipeline de Lemmatisation Spacy, Stenza. </dd>
+          <dd> Déploiement d'une architecture AWS pour versionning et serving de
+               modèles pour l'inférence. </dd>
+        </dl>
+        <a href=/cv/documents/stage_Factonics_2020.pdf>Rapport de stage</a>
+      en: |
+        <dl>
+        <dt> Marchine Learning engeneer </dt>
+          <dd> Literature review of performance measures for classification and NLP.</dd>
+          <dd> Development of a large scale classification algorithm with blending
+          and assembly method.</dd>
+          <dd> Make NLP pipeline (Embedding, BERT, Tokenizer, Lemmatization, NER...).</dd>
+          <dd> Implementation of a Topic Modeling techniques.
+          </dd>
+        <dt> Data ingeneer </dt>
+          <dd> Industrialisation with Airflow and Docker of large scale classification algrithm. </dd>
+          <dd> Parallélisation of Lemmatization pipeline Spacy, Stenza. </dd>
+          <dd> Deployment of AWS architecture for versioning and serving models for inference. </dd>
+        </dl>
+        <a href=/cv/documents/stage_Factonics_2020.pdf>Intership report</a>
+    technologies_used:
+      - Python
+      - Docker
+      - Tensorflow
+      - Spacy
+      - AWS
+
+  - role:
+      fr: Experience en laboratoire de robotique
+      en: Experience in robotics laboratory
     company:
       text: SEAL (EPITA LSE)
       link: https://www.seal.epita.fr
+    time:
+      start: 2019-01-03T00:00:00Z
+      end:   2020-01-03T00:00:00Z
+    details:
+      fr: |
+        Conception d’un boîtier étanche de caméra synchronisée pour l’acquisition
+        d’images stéréo en sous marin.
+        L'objectif étant de réaliser une cartographie de fonds marin via
+        l’algorithme SLAM.<br>
+        Participation au concours ERL (European Robotics League) en Italie.
+      en: |
+        Design of a waterproof synchronized camera for the acquisition of
+        stereo images underwater.
+        The objective being to carry out a cartography of the sea bed with
+        SLAM algorithm. </br>
+        Participation in the ERL (European Robotics League) competition in Italy.
     technologies_used:
+      - C++
+      - Python
+      - Fusion 360
