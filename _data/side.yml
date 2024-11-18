@@ -1,21 +1,4 @@
 # Sidebar
-contact:
-  email: jeremy.damour2@gmail.com
-  linkedin: jeremy-damour
-  github: start974
-  phone: 06 40 87 81 75
-  gitlab: jeremy.damour
-  # twitter:
-
-translation:
-  fr:
-    sentence: CV aussi disponible en
-    icon_id: fr
-    label: Francais
-  en:
-    sentence: CV also readable in
-    icon_id: gb
-    label: English
 
 skills:
   - id: 0

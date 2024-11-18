@@ -23,16 +23,16 @@ education:
       end:   2020-06-01T00:00:00Z
     university: EPITA Paris
 
-  - id: 1
-    degree: CPGE TSI
-    time:
-      start: 2016-07-01T00:00:00Z
-      end:   2018-05-01T00:00:00Z
-    university: Lycée Amiral Bouvet, La Réunion
+  #- id: 1
+    #degree: CPGE TSI
+    #time:
+      #start: 2016-07-01T00:00:00Z
+      #end:   2018-05-01T00:00:00Z
+    #university: Lycée Amiral Bouvet, La Réunion
 
-  - id: 0
-    degree: BAC STI2D-ITEC
-    time:
-      end: 2016-05-01T00:00:00Z
-    university: Lycée Pierre Poivre, La Réunion
-    details: Bac technologique avec mention bien.
+  #- id: 0
+    #degree: BAC STI2D-ITEC
+    #time:
+      #end: 2016-05-01T00:00:00Z
+    #university: Lycée Pierre Poivre, La Réunion
+    #details: Bac technologique avec mention bien.

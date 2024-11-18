@@ -1,30 +1,35 @@
 projects:
   - id : 0
+    title: start-lang
+    link: https://github.com/start974/start-lang
+    language : Rust
+
+  - id : 1
     title: RayTracing-ascii
     link: https://github.com/start974/raytracing-ascii
     language: Ocaml
 
-  - id : 1
+  - id : 2
     title: SSG
     link: https://gitlab.com/Shad_Saw/GLA-H
     language: JAVA
 
-  - id : 2
+  - id : 3
     title: 42SH
     link: #
     language: C
 
-  - id : 3
+  - id : 4
     title: SPIDER
     link: #
     language: C++
 
-  - id : 4
+  - id : 5
     title: Bot - TIC-TAC-TOE
     link: #
     language: C++
 
-  - id : 5
+  - id : 6
     title: Bot - demineur
     link: #
     language: Python
