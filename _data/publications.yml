@@ -1,0 +1,14 @@
+title:
+  fr: Publications
+  en: Publications
+
+list:
+  - title: "Hydras & Co.: Formalized mathematics in Coq for inspiration and entertainment"
+    link: https://hal.science/hal-03404668
+    conference: JFLA 2022
+    authors:
+      - Pierre Castéran
+      - Jérémy Damour
+      - Karl Palmskog
+      - Clément Pit-Claudel
+      - Théo Zimmermann

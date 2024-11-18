@@ -1,15 +1,23 @@
-{% assign publications = site.data.data.publications %}
-{% if publications %}
+{% assign publications = site.data.publications %}
+{% assign title = publications.title[site.lang] %}
+{% assign list = publications.list %}
+
+{% if list %}
 <section class="publications">
-    <h2 class="title">Publications</h2>
+  <h2 class="title">{{title}}</h2>
     <div class="publication-items">
-        {% for pub in publications%}
-            <div class="publication-item">
-                <div class="publication-title">
-                    <a href="{{pub.link}}">{{pub.title}}</a>
-                </div>
-                <div class="authors">{{pub.authors}}</div>
-                <div class="conference">{{pub.conference}}</div>   
+        {% for publication in list%}
+          {% assign title = publication.title %}
+          {% assign link = publication.link %}
+          {% assign authors = publication.authors %}
+          {% assign conference = publication.conference %}
+          <div class="publication-item">
+            <div class="publication-title">
+              <a href="{{link}}">{{title}}</a>
+            </div>
+            <div class="authors">
+              {{authors | join: ", "}}.</div>
+            <div class="conference">{{conference}}</div>
             </div>
         {%endfor%}
     </div>
