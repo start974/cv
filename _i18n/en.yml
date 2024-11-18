@@ -1,23 +1,2 @@
 lang: "en"
 icon: gb
-
-projects:
-  title: Projects
-  0:
-    details: |
-      Raytracing with ascii output or pixmap.
-  1:
-    details: |
-      Static website generator from Mardowns files.
-  2:
-    details: |
-      Programming a SHELL.
-  3:
-    details: |
-      Programming an HTTP serveur.
-  4:
-    details: |
-      Bot using minimax algorithm with alpha beta pruning.
-  5:
-    details: |
-      Bot solved minesweeper grids online.

@@ -1,35 +1,45 @@
-projects:
-  - id : 0
-    title: start-lang
+title:
+  en: Projects
+  fr: Projets
+list:
+  - title: start-lang
     link: https://github.com/start974/start-lang
     language : Rust
+    details:
+      fr: Interpréteur d'un langage fonctionnel (en cours de dévellopement).
+      en: Interpreter of a functional language (Work in progress).
 
-  - id : 1
-    title: RayTracing-ascii
+  - title: RayTracing-ascii
     link: https://github.com/start974/raytracing-ascii
     language: Ocaml
+    details:
+      fr: Raytracing avec une sortie au format ascii ou pixmap.
+      en: Raytracing with ascii output or pixmap.
 
-  - id : 2
-    title: SSG
+  - title: SSG
     link: https://gitlab.com/Shad_Saw/GLA-H
     language: JAVA
+    details:
+      fr: Generateur de site statique à partir de fichiers Markdowns.
+      en: Static website generator from Mardowns files.
 
-  - id : 3
-    title: 42SH
+  - title: 42SH
     link: #
     language: C
+    details:
+      fr: Programmation d'un SHELL.
+      en: Programming a SHELL.
 
-  - id : 4
-    title: SPIDER
+  - title: Bot - TIC-TAC-TOE
     link: #
     language: C++
+    details:
+      fr: Bot utilisant un algorithme minimax avec elagage alpha beta.
+      en: Bot using minimax algorithm with alpha beta pruning.
 
-  - id : 5
-    title: Bot - TIC-TAC-TOE
-    link: #
-    language: C++
-
-  - id : 6
-    title: Bot - demineur
+  - title: Bot - demineur
     link: #
     language: Python
+    details:
+      fr: Bot resolvant des grilles de demineur en ligne.
+      en: Bot solved minesweeper grids online.

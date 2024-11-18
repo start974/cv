@@ -1,23 +1,30 @@
 @use "mixins";
 
 .education {
-    .title {
-        @include mixins.header;
+  .title {
+    @include mixins.header;
+  }
+
+  .education-item {
+    margin-bottom: 20px;
+
+    .degree {
+      @include mixins.sub-header;
     }
-    .education-item {
-        margin-bottom: 20px;
-        .degree {
-            @include mixins.sub-header;
-        }
-        .university {
-            @include mixins.body-text;
-            font-weight: bold;
-        }
-        .time {
-            @include mixins.body-text;
-        }
-        .details {
-            @include mixins.body-text;
-        }
+
+    .university {
+      @include mixins.body-text;
+      font-weight: bold;
+
+      .time {
+        float: right;
+        color: var(--fg-color-title-sm);
+        font-weight: 100;
+      }
     }
+
+    .details {
+      @include mixins.body-text;
+    }
+  }
 }

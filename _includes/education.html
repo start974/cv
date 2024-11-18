@@ -17,9 +17,11 @@
                 {{degree}}
                 </div>
             </a>
-            <div class="university">{{university}}</div>
-            <div class="time">
-            {{time.start | date: "%Y"}} - {{time.end |   date: "%Y"}}
+            <div class="university">{{university}}
+
+              <div class="time">
+                {{time.start | date: "%Y"}} - {{time.end |   date: "%Y"}}
+              </div>
             </div>
         <div class="details">{{ details }}</div>
         </div>

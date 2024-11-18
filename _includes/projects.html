@@ -1,20 +1,27 @@
-{% assign projects = site.data.projects.projects %}
-{% assign projects_l = site.translations[site.lang].projects %}
-{% if projects %}
+{% assign projects = site.data.projects %}
+{% assign title = projects.title[site.lang] %}
+{% assign list = projects.list %}
+
+{% if list %}
 <section class="projects">
-    <h2 class="title">{{ projects_l.title }}</h2>
-    {% for p in projects %}
-    {% assign p_l = projects_l[p.id] %}
-        <div class="project">
-            <span>
-                <a class="project-link" href="{{p.link}}">
-                    {{p.title}}
-                </a>
-            </span>
-            <span class="details">- {{projects_l[p.id].details}}</span>
-            </br>
-            <span class="details">({{p.language}})</span>
-        </div>
+    <h2 class="title">{{ title }}</h2>
+    {% for project in list %}
+    {% assign title = project.title %}
+    {% assign details = project.details[site.lang] %}
+    {% assign language = project.language %}
+    {% assign link = project.link %}
+    <div class="project">
+      <span>
+        <a class="project-link" href="{{link}}">
+          {{title}}
+        </a>
+        <a class="language" >
+          {{language}}
+        </a>
+      </span>
+      </br>
+      <span class="details">{{details}}</span>
+    </div>
     {% endfor %}
 </section>
 {% endif %}
