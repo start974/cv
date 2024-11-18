@@ -1,0 +1,22 @@
+- title:
+    fr: Language de programation
+    en: Programming Language
+  list:
+    - Coq
+    - Why3
+    - Rust
+    - OCaml
+    - Haskell
+    - C
+    - C++
+    - JAVA
+    - Python
+- title:
+    fr: Autres
+    en: Others
+  list:
+    - Latex
+    - Git
+    - Docker
+    - AWS
+
