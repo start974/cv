@@ -6,7 +6,7 @@ list:
     link: https://github.com/start974/start-lang
     language : Rust
     details:
-      fr: Interpréteur d'un langage fonctionnel (en cours de dévellopement).
+      fr: Interpréteur d'un langage fonctionnel (en cours de développement).
       en: Interpreter of a functional language (Work in progress).
 
   - title: RayTracing-ascii
@@ -20,7 +20,7 @@ list:
     link: https://gitlab.com/Shad_Saw/GLA-H
     language: JAVA
     details:
-      fr: Generateur de site statique à partir de fichiers Markdowns.
+      fr: Générateur de site statique à partir de fichiers Markdowns.
       en: Static website generator from Mardowns files.
 
   - title: 42SH
@@ -34,12 +34,12 @@ list:
     link: #
     language: C++
     details:
-      fr: Bot utilisant un algorithme minimax avec elagage alpha beta.
+      fr: Bot utilisant un algorithme minimax avec élagage alpha beta.
       en: Bot using minimax algorithm with alpha beta pruning.
 
   - title: Bot - demineur
     link: #
     language: Python
     details:
-      fr: Bot resolvant des grilles de demineur en ligne.
+      fr: Bot résolvant des grilles de démineur en ligne.
       en: Bot solved minesweeper grids online.

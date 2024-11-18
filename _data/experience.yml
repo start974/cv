@@ -1,21 +1,21 @@
 title:
-  fr : Experience
+  fr : Expérience
   en : Experience
 
 techno_title:
-  fr: Technologies utilisée
-  en: Technologis used
+  fr: Technologies utilisées
+  en: Technologies used
 
 list:
   - role:
-      fr: Thése sur la formalisation d'un modele mémoire pour le language C
-      en: PHD on the formalization of a memory model for the C language.
+      fr: Thèse sur la formalisation d'un modèle mémoire pour le langage C
+      en: PhD thesis on the formalization of a memory model for the C language.
     company:
       text: CEA-LIST
       link: https://list.cea.fr/fr/
     time:
-      start: 2023-11-03T00:00:00Z
-      end:   2026-11-03T00:00:00Z
+      start: 2023-11-13T00:00:00Z
+      end:   2026-11-13T00:00:00Z
     details:
       fr: |
         La preuve déductive en logique de Hoare pour des programmes manipulant
@@ -66,11 +66,11 @@ list:
       fr: |
         Développement de
         <a href=http://www.mathworks.com/products/polyspace/index.html>Polyspace</a>,
-        un outil d'analyse statique dévelloper et commercialiser par
-        <a heref=https://mathworks.com>Mathworks</a>.
+        un outil d'analyse statique déveloper et commercialisé par
+        <a href=https://mathworks.com>Mathworks</a>.
         Il utilise des méthodes formelles, plus particulièrement
         l'interprétation abstraite, pour prouver mathématiquement l'absence
-        d'une grande catégorie d'erreurs d'exécutiondans dans les
+        d'une grande catégorie d'erreurs d'exécution dans dans les
         programmes C, C++ et Ada.
         Polyspace vient avec plusieurs produits dont Code Prover,
         qui vise à prouver l'absence d'erreurs d'exécution et Bug Finder,
@@ -83,14 +83,14 @@ list:
         Development of
         <a href=http://www.mathworks.com/products/polyspace/index.html>Polyspace</a>,
         a static analysis tool developed and commercialized by
-        <a heref=https://mathworks.com>Mathworks</a>.
+        <a href=https://mathworks.com>Mathworks</a>.
         It uses formal methods, more specifically abstract interpretation,
         to mathematically prove the absence of a large cathegory of
         runtime errors in C, C++ and Ada programs.
         Polyspace comes with several products including Code Prover,
         which aims to prove the absence of runtime errors
-        and Bug Finder, which aims ft finding some bugs.
-        The goal of this internship is to conceive and prototype a methodology
+        and Bug Finder, which aims to finding some bugs.
+        The goal of this internship was to conceive and prototype a methodology
         to merge abstract interpretation and model checking techniques
         within the industrial static analyzer Polyspace.
     technologies_used:
@@ -101,7 +101,7 @@ list:
       - Polyspace
 
   - role:
-      fr: Stage de recherche, synthese de fonction
+      fr: Stage de recherche, synthèse de fonction
       en: Research internship, function synthesis
     company:
       text: CEA-LIST
@@ -113,14 +113,14 @@ list:
       fr: |
         Le CEA LIST développe l'outil <a href=http://frama-c.com>FRAMA-C</a>,
         une plateforme logicielle facilitant le développement d’outils
-        d’analyse de programme C (implamté dans plusieurs greffons).
+        d’analyse de programmes C (implanté dans plusieurs greffons).
         L'un des greffon fournis par FRAMA-C est le greffon E-ACSL,
         il permet de faire de la vérification à l'exécution.
         Le but du stage a été d'élargir la classe des annotations exprimables
-        du gréfon E-ACSL afin d’y inclure des fonctions et des prédicats logiques.
-        Ces fonctions et prédicats sont des relations inductives ou axiomatiques,
+        du greffon E-ACSL afin d’y inclure des fonctions et des prédicats logiques.
+        Ceux-ci sont des relations inductives ou axiomatiques,
         qui expriment des spécifications formelles qui ne sont pas directement exécutables.
-        Afin de développer un outil de traductions de ces fonctions
+        Afin de développer un outil de traduction de ces fonctions
         non explicites vers des fonctions explicites (directement exécutables).
         <br>
         <a href=/cv/documents/stage_FRAMA_C_2022.pdf>Rapport de stage</a>
@@ -131,11 +131,11 @@ list:
         One of the plugins provided by Frama-C is E-ACSL,
         it allows to do runtime assertion checking.
         The goal of the internship was to extend the class of expressible
-        annotations of the E-ACSL to include logical functions and predicates.
-        These functions and predicates are inductive or axiomatic relations,
-        which express formal specifications that are not directly executable.
-        In order to develop a tool for converting these
-        functions to explicit functions(directly executable).
+        annotations of E-ACSL to include logical functions and predicates.
+        Which are inductive or axiomatic relations,
+        expressing formal specifications that are not directly executable.
+        The topic of the internship was to develop a tool for converting these
+        functions to explicit functions (directly executable).
         <br>
         <a href=/cv/documents/stage_FRAMA_C_2022.pdf>Internship report</a>
     technologies_used:
@@ -146,7 +146,7 @@ list:
   - role:
       en: Research internship, formal proof
       fr: Stage de recherche, preuve formelle
-  - company:
+    company:
       text: IRIF
       link: https://www.irif.fr/
     time:
@@ -157,13 +157,12 @@ list:
         Participation au développement de
         <a href=https://github.com/coq-community/hydra-battles>Hydra-Battles</a>,
         un projet de formalisation Coq documentée et pédagogique.
-        J'ai contribué lors de ce stage aux preuves de plusieurs théorèmes en Coq.
-        Et aussi contribuer à l'utilisation d'
-        <a href =https://github.com/cpitclaudel/alectryon>alectryon</a>
+        J'ai contribué lors de ce stage aux preuves de plusieurs théorèmes en Coq, ainsi qu'à l'utilisation
+        d'<a href =https://github.com/cpitclaudel/alectryon>alectryon</a>
         un outil de "litterate programing", pour pouvoir automatiser l'importation de bout
-        de preuve coq dans la documentation.
-        À la suite de mon stage, un <a href=https://hal.archives-ouvertes.fr/hal-03404668>papier</a>
-        a été publié au
+        de preuve Coq dans la documentation.
+        À la suite de mon stage, un <a href=https://hal.archives-ouvertes.fr/hal-03404668>article</a>
+        a été publié aux
         <a href=http://jfla.inria.fr/jfla2022.html>JFLA 2022</a>.
       en : |
         Participation in the development of
@@ -174,8 +173,8 @@ list:
         <a href =https://github.com/cpitclaudel/alectryon>alectryon</a>
         a "litterate programming" tool, to automatize the import of Coq
         proofs in the documentation.
-        Following my internship, a
-        <a href=https://hal.archives-ouvertes.fr/hal-03404668>papier</a>
+        Following my internship, an
+        <a href=https://hal.archives-ouvertes.fr/hal-03404668>article</a>
         has been published at
         <a href=http://jfla.inria.fr/jfla2022.html>JFLA 2022</a>.
     technologies_used:
@@ -195,37 +194,32 @@ list:
       end:   2020-07-01T00:00:00Z
     details:
       fr: |
-        <dl>
-        <dt> Marchine Learning ingenieur </dt>
-          <dd> Étude bibliographique de mesures de performances
-               pour la classification et NLP. </dd>
-          <dd> Développement d'un algorithme de classification large scale avec
-               blending et méthode ensembliste. </dd>
-          <dd> Utilisation de divers pipeline NLP
-              (Embedding, BERT, Tokenizer, Lemmatisation, NER...)</dd>
-          <dd> Implémentation de technique de Topic Modeling. </dd>
-        <dt> Data ingenieur </dt>
-          <dd> Industrialisation via Airflow et Docker de l'algorithme de
-               classification large scale. </dd>
-          <dd> Parallélisation d'une pipeline de Lemmatisation Spacy, Stenza. </dd>
-          <dd> Déploiement d'une architecture AWS pour versionning et serving de
-               modèles pour l'inférence. </dd>
-        </dl>
+        En tant qu'ingénieur en Machine Learning, j'ai mené une étude
+        bibliographique approfondie sur les mesures de performance appliquées
+        à la classification et au traitement du langage naturel (NLP).
+        J'ai développé un algorithme de classification à grande échelle intégrant
+        des techniques de blending et des méthodes ensemblistes, et j'ai utilisé
+        divers pipelines NLP incluant des techniques telles que les embeddings,
+        BERT, le tokenization, la lemmatisation et la reconnaissance
+        d'entités nommées (NER). J'ai également implémenté des techniques
+        de modélisation de sujets (Topic Modeling). En tant que data ingénieur,
+        j'ai industrialisé cet algorithme de classification à grande échelle en
+        utilisant Airflow et Docker. J'ai parallélisé des pipelines de lemmatisation
+        avec Spacy et Stanza, et j'ai déployé une architecture sur AWS
+        pour le versioning et le déploiement des modèles pour l'inférence.
+        <br >
         <a href=/cv/documents/stage_Factonics_2020.pdf>Rapport de stage</a>
       en: |
-        <dl>
-        <dt> Marchine Learning engeneer </dt>
-          <dd> Literature review of performance measures for classification and NLP.</dd>
-          <dd> Development of a large scale classification algorithm with blending
-          and assembly method.</dd>
-          <dd> Make NLP pipeline (Embedding, BERT, Tokenizer, Lemmatization, NER...).</dd>
-          <dd> Implementation of a Topic Modeling techniques.
-          </dd>
-        <dt> Data ingeneer </dt>
-          <dd> Industrialisation with Airflow and Docker of large scale classification algrithm. </dd>
-          <dd> Parallélisation of Lemmatization pipeline Spacy, Stenza. </dd>
-          <dd> Deployment of AWS architecture for versioning and serving models for inference. </dd>
-        </dl>
+        As a Machine Learning engineer, I conducted an extensive literature review
+        on performance metrics for classification and natural language processing (NLP).
+        I developed a large-scale classification algorithm using blending techniques and
+        ensemble methods and worked with various NLP pipelines, including embeddings,
+        BERT, tokenization, lemmatization, and named entity recognition (NER).
+        I also implemented topic modeling techniques. As a data engineer, I industrialized
+        this large-scale classification algorithm using Airflow and Docker.
+        I parallelized lemmatization pipelines with Spacy and Stanza and deployed
+        an AWS architecture for model versioning and serving for inference.
+        <br >
         <a href=/cv/documents/stage_Factonics_2020.pdf>Intership report</a>
     technologies_used:
       - Python

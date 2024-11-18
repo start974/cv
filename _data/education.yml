@@ -15,7 +15,7 @@ list:
 
   - degree: M1 DATA
     details:
-        fr: Master 1 spécialiser dans le traitement et l'analyse de donée.
+        fr: Master 1 spécialisé dans le traitement et l'analyse de données.
         en: Master 1 specialized in data processing and analysis.
     link: http://www.informatique.univ-paris-diderot.fr/formations/masters/data/accueil
     time:
@@ -28,8 +28,8 @@ list:
     link: https://www.epita.fr/
     details:
       fr: |
-        Ecole d'ingénieur en Informatique. <br />
-        Spécialité d'analyse et synthèse d'image en 2e année (Majeur IMAGE).
+        École d'ingénieur en Informatique. <br />
+        Spécialité d'analyse et synthèse d'image en 2ème année (Majeure IMAGE).
       en: |
         IT Engineering school. </br>
         Specialized in picture analysis and synthesis in the 2nd year (IMAGE).

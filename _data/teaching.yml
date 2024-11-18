@@ -3,7 +3,7 @@ title:
   en : "Teaching"
 
 list:
-  - university: Orleans
+  - university: Université d'Orléans
     course:
       fr: Cours et TP, Securité des applications (Frama-C WP)
       en: Courses and labs, Application Security (Frama-C WP).
@@ -32,7 +32,7 @@ list:
       fr: Cours particulier, Mathématique et Physique
       en: Private tutoring in Mathematics and Physics
     level:
-      fr: College / Lycée
+      fr: Collège / Lycée
       en: College / High school.
     time:
       start: 2020-01-01T00:00:00Z

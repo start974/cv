@@ -1,14 +1,12 @@
 - title:
-    fr: Language de programation
-    en: Programming language
+    fr: Languages de programations
+    en: Programming languages
   list:
     - Coq
     - Why3
-    - Rust
     - OCaml
-    - Haskell
-    - C
-    - C++
+    - Rust
+    - C / C++
     - JAVA
     - Python
 - title:
