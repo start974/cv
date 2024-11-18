@@ -1,10 +1,10 @@
 {% assign skills = site.data.skills %}
 <section class="skills">
-    {% for skill_cat in skills %}
+  {% for skill_cat in skills %}
     {% assign title = skill_cat.title[site.lang]%}
-        <div class="title">{{title}}</div>
-        {% for skill in skill_cat.list %}
-            <div class="skill">{{skill}}</div>
-        {% endfor %}
+    <div class="title">{{title}}</div>
+    {% for skill in skill_cat.list %}
+      <div class="skill">{{skill}}</div>
     {% endfor %}
+  {% endfor %}
 </section>

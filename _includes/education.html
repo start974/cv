@@ -6,25 +6,26 @@
 <section class="education">
   <div class="title">{{title}}</div>
     {% for education in list %}
-        {% assign degree = education.degree %}
-        {% assign details = education.details[site.lang] %}
-        {% assign university = education.university %}
-        {% assign time = education.time %}
-        {% assign link = education.link %}
-        <div class="education-item">
-                <div class="degree">
-                {% if link %} <a href="{{link}}"> {% endif %}
-                {{degree}}
-                </div>
-            </a>
-            <div class="university">{{university}}
-
-              <div class="time">
-                {{time.start | date: "%Y"}} - {{time.end |   date: "%Y"}}
-              </div>
-            </div>
-        <div class="details">{{ details }}</div>
+      {% assign degree = education.degree %}
+      {% assign details = education.details[site.lang] %}
+      {% assign university = education.university %}
+      {% assign time = education.time %}
+      {% assign link = education.link %}
+      <div class="education-item">
+        <div class="degree">
+          {% if link %}
+            <a href="{{link}}"> {{degree}} </a>
+          {% else %}
+            <a> {{degree}} </a>
+          {% endif %}
         </div>
+        <div class="university">{{university}}
+          <div class="time">
+            {{time.start | date: "%Y"}} - {{time.end |   date: "%Y"}}
+          </div>
+        </div>
+        <div class="details">{{ details }}</div>
+      </div>
     {% endfor %}
 </section>
 {% endif %}

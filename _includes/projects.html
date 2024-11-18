@@ -6,22 +6,22 @@
 <section class="projects">
     <h2 class="title">{{ title }}</h2>
     {% for project in list %}
-    {% assign title = project.title %}
-    {% assign details = project.details[site.lang] %}
-    {% assign language = project.language %}
-    {% assign link = project.link %}
-    <div class="project-item">
-      <span>
-        <a class="project-link" href="{{link}}">
-          {{title}}
-        </a>
-        <a class="language" >
-          {{language}}
-        </a>
-      </span>
-      </br>
-      <span class="details">{{details}}</span>
-    </div>
+      {% assign title = project.title %}
+      {% assign details = project.details[site.lang] %}
+      {% assign language = project.language %}
+      {% assign link = project.link %}
+      <div class="project-item">
+        <span>
+          <a class="project-link" href="{{link}}">
+            {{title}}
+          </a>
+          <a class="language" >
+            {{language}}
+          </a>
+        </span>
+        </br>
+        <span class="details">{{details}}</span>
+      </div>
     {% endfor %}
 </section>
 {% endif %}

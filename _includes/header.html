@@ -10,7 +10,7 @@
           {% if lang != site.lang %}
             {% assign icon = site.translations[lang].icon %}
             {% capture link %}
-            {{ site.baseurl_root }}{% if lang != site.languages[0] %}/{{lang}}{% endif %}/
+              {{ site.baseurl_root }}{% if lang != site.languages[0] %}/{{lang}}{% endif %}/
             {% endcapture %}
             <a href="{{link}}">
               <span class = "flag-icon flag-icon-{{icon}}"></span>
