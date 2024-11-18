@@ -1,0 +1,35 @@
+{% assign teaching = site.data.teaching %}
+{% assign title = teaching.title[site.lang] %}
+{% assign list = teaching.list %}
+
+{% if list %}
+<section class="teaching">
+  <h2 class="title">{{ title }}</h2>
+  {% for teach in list %}
+    {% assign university = teach.university %}
+    {% assign course = teach.course[site.lang] %}
+    {% assign level = teach.level[site.lang] %}
+    {% assign year_start = teach.time.start | date: "%Y" %}
+    {% assign year_end = teach.time.end | date: "%Y" %}
+    {% assign hours = teach.hours %}
+    <div class="teaching-item">
+      <span>
+        <div class="course">
+          {{course}}
+          <span class="time">
+            {{ year_start }}
+            {% if year_start != year_end %}
+            - {{ year_end }}
+            {% endif %}
+          </span>
+        </div>
+
+      <span class="university">
+        <span class="name"> {{university}} </span> -
+        <span class="level"> {{level}} </span>
+        <span class="hours"> {{hours}}h </span>
+      </span>
+    </div>
+  {% endfor %}
+</section>
+{% endif %}

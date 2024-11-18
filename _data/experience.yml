@@ -204,7 +204,7 @@ list:
           <dd> Utilisation de divers pipeline NLP
               (Embedding, BERT, Tokenizer, Lemmatisation, NER...)</dd>
           <dd> Implémentation de technique de Topic Modeling. </dd>
-        <dt> Data ingenieur. </dt>
+        <dt> Data ingenieur </dt>
           <dd> Industrialisation via Airflow et Docker de l'algorithme de
                classification large scale. </dd>
           <dd> Parallélisation d'une pipeline de Lemmatisation Spacy, Stenza. </dd>

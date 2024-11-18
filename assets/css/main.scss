@@ -4,7 +4,7 @@
 @use "base";
 @use "print";
 @use "responsive";
-//@use "mixins";
+@use "mixins";
 @use "skins/{{ site.theme_skin}}";
 
 @use "includes/header";
@@ -16,5 +16,5 @@
 @use "includes/experience";
 @use "includes/publications";
 @use "includes/projects";
-@use "includes/volunteering";
 @use "includes/translations";
+@use "includes/teaching";

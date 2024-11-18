@@ -1,12 +1,14 @@
 @use "mixins";
 
 .skills {
-    margin-bottom: 20px;
-    .title {
-        margin-top: 20px;
-        @include mixins.sub-header;
-    }
-    .skill {
-        @include mixins.body-text;
-    }
+  margin-bottom: 20px;
+
+  .title {
+    margin-top: 20px;
+    @include mixins.sub-header;
+  }
+
+  .skill {
+    @include mixins.body-text;
+  }
 }

@@ -1,20 +1,24 @@
 @use "mixins";
 
 .projects {
-    .title {
-        @include mixins.header;
+  .title {
+    @include mixins.header;
+  }
+
+  .project-item {
+    margin-bottom: 20px;
+
+    .project-link {
+      @include mixins.sub-header;
     }
-    .project {
-        margin-bottom: 20px;
-        .project-link {
-            @include mixins.sub-header;
-        }
-        .language {
-            font-weight: bold;
-            @include mixins.body-text;
-        }
-        .details {
-            @include mixins.body-text;
-        }
+
+    .language {
+      font-weight: bold;
+      @include mixins.body-text;
     }
+
+    .details {
+      @include mixins.body-text;
+    }
+  }
 }

@@ -1,11 +1,13 @@
 @use "mixins";
 
 .languages {
-    margin-bottom: 20px;
-    .title {
-        @include mixins.sub-header;
-    }
-    .idiom {
-        @include mixins.body-text;
-    }
+  margin-bottom: 20px;
+
+  .title {
+    @include mixins.sub-header;
+  }
+
+  .idiom {
+    @include mixins.body-text;
+  }
 }

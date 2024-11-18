@@ -1,0 +1,40 @@
+title:
+  fr : "Enseignements"
+  en : "Teaching"
+
+list:
+  - university: Orleans
+    course:
+      fr: Cours et TP, Securité des applications (Frama-C WP)
+      en: Courses and labs, Application Security (Frama-C WP).
+    level:
+      fr: Master 2
+      en: Master 2
+    time:
+      start: 2024-10-24T00:00:00Z
+      end:   2024-10-24T00:00:00Z
+    hours: 7
+
+  - university: Complétude
+    course:
+      fr: Cours particulier, Informatique
+      en: Private Tutoring in Computer Science
+    level:
+      fr: Classe préparatoire
+      en: Preparatory class
+    time:
+      start: 2020-01-01T00:00:00Z
+      end:   2022-12-01T00:00:00Z
+    hours: 20
+
+  - university: Complétude
+    course:
+      fr: Cours particulier, Mathématique et Physique
+      en: Private tutoring in Mathematics and Physics
+    level:
+      fr: College / Lycée
+      en: College / High school.
+    time:
+      start: 2020-01-01T00:00:00Z
+      end:   2023-12-01T00:00:00Z
+    hours: 50

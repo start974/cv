@@ -5,21 +5,19 @@
 {% if list %}
 <section class="publications">
   <h2 class="title">{{title}}</h2>
-    <div class="publication-items">
-        {% for publication in list%}
-          {% assign title = publication.title %}
-          {% assign link = publication.link %}
-          {% assign authors = publication.authors %}
-          {% assign conference = publication.conference %}
-          <div class="publication-item">
-            <div class="publication-title">
-              <a href="{{link}}">{{title}}</a>
-            </div>
-            <div class="authors">
-              {{authors | join: ", "}}.</div>
-            <div class="conference">{{conference}}</div>
-            </div>
-        {%endfor%}
-    </div>
+    {% for publication in list%}
+      {% assign title = publication.title %}
+      {% assign link = publication.link %}
+      {% assign authors = publication.authors %}
+      {% assign conference = publication.conference %}
+      <div class="publication-item">
+        <div class="publication-title">
+          <a href="{{link}}">{{title}}</a>
+        </div>
+        <div class="authors">
+          {{authors | join: ", "}}.</div>
+        <div class="conference">{{conference}}</div>
+        </div>
+    {%endfor%}
 </section>
 {% endif %}

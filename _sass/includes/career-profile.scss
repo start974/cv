@@ -1,10 +1,11 @@
 @use "mixins";
 
 .career-profile {
-    .title {
-        @include mixins.header;
-    }
-    .details {
-        @include mixins.body-text;
-    }
+  .title {
+    @include mixins.header;
+  }
+
+  .details {
+    @include mixins.body-text;
+  }
 }

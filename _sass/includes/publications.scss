@@ -1,27 +1,29 @@
 @use "mixins";
 
 .publications {
-    .title {
-        @include mixins.header;
+  .title {
+    @include mixins.header;
+  }
+
+  .publication-item {
+    margin-bottom: 20px;
+
+    .publication-title {
+      a {
+        text-decoration: none;
+        font-weight: bold;
+        @include mixins.body-text;
+      }
     }
-    .publication-items {
-        .publication-item {
-            margin-bottom: 20px;
-            .publication-title {
-                a {
-                    text-decoration: none;
-                    font-weight: bold;
-                    @include mixins.body-text;
-                }
-            }
-            .authors {
-                @include mixins.body-text;
-            }
-            .conference {
-                @include mixins.body-text;
-                color: var(--fg-color-title-sm);
-                font-weight: 100;
-            }
-        }
+
+    .authors {
+      @include mixins.body-text;
     }
+
+    .conference {
+      @include mixins.body-text;
+      color: var(--fg-color-title-sm);
+      font-weight: 100;
+    }
+  }
 }

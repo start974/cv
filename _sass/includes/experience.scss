@@ -1,27 +1,32 @@
 @use "mixins";
 
 .experiance {
-    .title {
-        @include mixins.header;
+  .title {
+    @include mixins.header;
+  }
+
+  .experience-item {
+    .role {
+      @include mixins.sub-header;
     }
-    .experience-item {
-        .role {
-            @include mixins.sub-header;
-        }
-        .company {
-            @include mixins.body-text;
-            font-weight: bold;
-            .time {
-                float: right;
-                color: var(--fg-color-title-sm);
-                font-weight: 100;
-            }
-        }
-        .details {
-            @include mixins.body-text;
-        }
-        .technologies {
-            @include mixins.body-text;
-        }
+
+    .company {
+      @include mixins.body-text;
+      font-weight: bold;
+
+      .time {
+        float: right;
+        color: var(--fg-color-title-sm);
+        font-weight: 100;
+      }
     }
+
+    .details {
+      @include mixins.body-text;
+    }
+
+    .technologies {
+      @include mixins.body-text;
+    }
+  }
 }
