@@ -23,8 +23,25 @@
     <h1 class="title">Jeremy Damour</h1>
     
       <input type="checkbox" id="switch" name="mode" class="toggle-dark"></input>
-      <label for="switch"><i id="moon" data-feather="moon" fill="var(--fg-color)"></i></label>
+      <label for="switch"><i id="moon" data-feather="moon" fill="var(--fg-color)"> </i> </label>
     
+    <div class="translation">
+      <div class = "lang-item">
+        
+          
+            
+            
+            <a href="
+            /cv/
+            ">
+              <span class = "flag-icon flag-icon-fr"></span>
+            </a>
+          
+        
+          
+        
+      </div>
+    </div>
   </div>
 
   <div class="container-block">
@@ -36,7 +53,7 @@
     
         <div class="contact-item">
             <i data-feather="mail"></i>
-            <a href="mailto:jeremy.damour2@gmail.com">
+            <a href="mailto:">
                 jeremy.damour2@gmail.com
             </a>
         </div>
@@ -45,7 +62,7 @@
     
         <div class="contact-item">
             <i data-feather="phone"></i>
-            <a href="tel:06 40 87 81 75">
+            <a href="tel:">
                 06 40 87 81 75
             </a>
         </div>
@@ -54,7 +71,7 @@
     
         <div class="contact-item">
             <i data-feather="linkedin"></i>
-            <a href="https://linkedin.com/in/jeremy-damour">
+            <a href="https://linkedin.com/in/">
                 jeremy-damour
             </a>
         </div>
@@ -63,7 +80,7 @@
     
         <div class="contact-item">
             <i data-feather="github"></i>
-            <a href="https://github.com/start974">
+            <a href="https://github.com/">
                 start974
             </a>
         </div>
@@ -72,7 +89,7 @@
     
         <div class="contact-item">
             <i data-feather="gitlab"></i>
-            <a href="https://gitlab.com/jeremy.damour">
+            <a href="https://gitlab.com/">
                 jeremy.damour
             </a>
         </div>
@@ -85,8 +102,11 @@
 
       
 
+
+
+
 <section class="languages">
-    <div class="title">Languages</div>
+  <div class="title">Languages</div>
     
         <div class="idiom">French (mother tongue)</div>
     
@@ -96,20 +116,20 @@
 
 
       
-
-
 <section class="skills">
     
     
-        <div class="title">Programming Language</div>
+        <div class="title">Programming language</div>
         
             <div class="skill">Coq</div>
         
             <div class="skill">Why3</div>
         
-            <div class="skill">Haskell</div>
+            <div class="skill">Rust</div>
         
             <div class="skill">OCaml</div>
+        
+            <div class="skill">Haskell</div>
         
             <div class="skill">C</div>
         
@@ -119,11 +139,11 @@
         
             <div class="skill">Python</div>
         
-            <div class="skill">Rust</div>
-        
     
     
         <div class="title">Others</div>
+        
+            <div class="skill">Latex</div>
         
             <div class="skill">Git</div>
         
@@ -134,63 +154,88 @@
     
 </section>
 
-
-      
- 
-<section class="translations">
-    <div>
-        <div class="title">CV also readable in: </div>
-        
-        
-            
-            <div class="lang-item">
-                <span class ="flag-icon flag-icon-fr"></span>
-                <a href="/cv/">
-                    Francais
-                </a>
-            </div>
-        
-        
-        
-        
-    </div>
-</section>
-
-
     </div>
 
     <div class="main">
-      <section class="career-profile">
-    <h2 class="title">Profile</h2>
-    <div class="details">I am a student in a master 2 of research in computer science.
-I am very interested in proof assistant (COQ) and program of proof (Why3).
+      
+
+
+
+<section class="career-profile">
+  <h2 class="title">Profile</h2>
+  <div class="details">I am a PhD student at CEA-List, where I work on
+<a href=https://frama-c.com/>Frama-C</a>
+<a href=https://frama-c.com/fc-plugins/wp.html> WP</a>.
+I am particularly interested in deductive program verification (<a href=https://frama-c.com/fc-plugins/wp.html>Frama-C WP</a>,
+<a href=https://www.why3.org/>Why3</a>) and,
+more generally, in proof using proof assistants such as
+<a href=https://coq.inria.fr/>Coq</a>.
 </div>
 </section>
 
       
 
 
+
+
+
 <section class="experiance">
-    <h2 class="title">Experience</h2>
+  <h2 class="title">Experience</h2>
+  
     
-        
-        <div class="experience-item">
-            <div class="role">
-                Software engineering internship, abstract interpretation
-            </div>
-            <div class="company">
-                <a href=https://mathworks.com class="company">
-                    MathWorks 
-                </a>
-                <span class="time">
-                    Mar 2023 -
-                    Aug 2023
-                </span>
-            </div> 
-            <div class="details">Development of
+    
+    
+    
+    
+    <div class="experience-item">
+      <div class="role"> PHD on the formalization of a memory model for the C language. </div>
+      <div class="company">
+        <a href=https://list.cea.fr/fr/ class="company">
+          CEA-LIST
+        </a>
+        <span class="time">
+          Nov 2023 - Nov 2026
+        </span>
+      </div>
+      <div class="details"> Deductive verification in Hoare logic for programs manipulating pointers
+requires an accurate logical modeling of memory. Designing an efficient
+memory model for verification involves finding a balance between the
+expressive power of the model and the complexity of the associated proofs.
+In Frama-C/WP, a tool widely used in the industry for the verification of C
+programs, we aim to develop a new memory model based on a mapping of memory
+accesses. This requires an alias analysis enriched with metadata that
+characterizes the nature of the accesses. A modular analysis is essential,
+complemented by annotations to adjust its precision, as well as solid
+semantic foundations to ensure the proof of its correctness. The analyzer,
+its formalization, and the proof of semantic correctness are fully developed
+using the Coq proof assistant.
+ </div>
+      
+        <p class="technologies">
+          Technologis used: Coq, C, Ocaml, Frama-C WP.
+          </p>
+      
+    </div>
+  
+    
+    
+    
+    
+    
+    <div class="experience-item">
+      <div class="role"> Software engineering internship, abstract interpretation </div>
+      <div class="company">
+        <a href=https://mathworks.com class="company">
+          MathWorks
+        </a>
+        <span class="time">
+          Mar 2023 - Aug 2023
+        </span>
+      </div>
+      <div class="details"> Development of
 <a href=http://www.mathworks.com/products/polyspace/index.html>Polyspace</a>,
 a static analysis tool developed and commercialized by
-<a heref=https://mathworks.com =>Mathworks</a>.
+<a heref=https://mathworks.com>Mathworks</a>.
 It uses formal methods, more specifically abstract interpretation,
 to mathematically prove the absence of a large cathegory of
 runtime errors in C, C++ and Ada programs.
@@ -200,65 +245,87 @@ and Bug Finder, which aims ft finding some bugs.
 The goal of this internship is to conceive and prototype a methodology
 to merge abstract interpretation and model checking techniques
 within the industrial static analyzer Polyspace.
-</div>
-            
-            <p class="technologies">Technologis used: Ocaml, SML, C, C++, Polyspace
-</p>
-            
-        </div>
+ </div>
+      
+        <p class="technologies">
+          Technologis used: Ocaml, SML, C, C++, Polyspace.
+          </p>
+      
+    </div>
+  
     
-        
-        <div class="experience-item">
-            <div class="role">
-                Research internship, function synthesis
-            </div>
-            <div class="company">
-                <a href=https://list.cea.fr/fr/ class="company">
-                    CEA-LIST 
-                </a>
-                <span class="time">
-                    Mar 2022 -
-                    Aug 2022
-                </span>
-            </div> 
-            <div class="details">CEA LIST develops <a href=http://frama-c.com>FRAMA-C</a>,
+    
+    
+    
+    
+    <div class="experience-item">
+      <div class="role"> Research internship, function synthesis </div>
+      <div class="company">
+        <a href=https://list.cea.fr/fr/ class="company">
+          CEA-LIST
+        </a>
+        <span class="time">
+          Mar 2022 - Aug 2022
+        </span>
+      </div>
+      <div class="details"> CEA LIST develops <a href=http://frama-c.com>Frama-C</a>,
 a software platform facilitating the development of C
 program analysis tools (implemented in several plugins).
-One of the plugins provided by FRAMA-C is E-ACSL,
+One of the plugins provided by Frama-C is E-ACSL,
 it allows to do runtime assertion checking.
-The goal of the internship was to extend the class of expressible annotations of the
-E-ACSL to include logical functions and predicates.
+The goal of the internship was to extend the class of expressible
+annotations of the E-ACSL to include logical functions and predicates.
 These functions and predicates are inductive or axiomatic relations,
 which express formal specifications that are not directly executable.
 In order to develop a tool for converting these
 functions to explicit functions(directly executable).
 <br>
 <a href=/cv/documents/stage_FRAMA_C_2022.pdf>Internship report</a>
-</div>
-            
-            <p class="technologies">Technologis used: Ocaml, C, FRAMA-C
-</p>
-            
-        </div>
+ </div>
+      
+        <p class="technologies">
+          Technologis used: Ocaml, C, Frama-C.
+          </p>
+      
+    </div>
+  
     
-        
-        <div class="experience-item">
-            <div class="role">
-                Research internship, formal proof
-            </div>
-            <div class="company">
-                <a href=https://www.irif.fr/ class="company">
-                    IRIF 
-                </a>
-                <span class="time">
-                    Jun 2021 -
-                    Jul 2021
-                </span>
-            </div> 
-            <div class="details">Participation in the development of
+    
+    
+    
+    
+    <div class="experience-item">
+      <div class="role"> Research internship, formal proof </div>
+      <div class="company">
+        <a href= class="company">
+          
+        </a>
+        <span class="time">
+           - 
+        </span>
+      </div>
+      <div class="details">  </div>
+      
+    </div>
+  
+    
+    
+    
+    
+    
+    <div class="experience-item">
+      <div class="role">  </div>
+      <div class="company">
+        <a href=https://www.irif.fr/ class="company">
+          IRIF
+        </a>
+        <span class="time">
+          Jun 2021 - Jul 2021
+        </span>
+      </div>
+      <div class="details"> Participation in the development of
 <a href=https://github.com/coq-community/hydra-battles>Hydra-Battles</a>,
 a documented and pedagogical Coq formalization project.
-I was supervised by Théo Zimmermann and Pierre Castéran.
 I contributed during this internship to the proofs of several theorems in Coq.
 And also contributed to use
 <a href =https://github.com/cpitclaudel/alectryon>alectryon</a>
@@ -268,28 +335,30 @@ Following my internship, a
 <a href=https://hal.archives-ouvertes.fr/hal-03404668>papier</a>
 has been published at
 <a href=http://jfla.inria.fr/jfla2022.html>JFLA 2022</a>.
-</div>
-            
-            <p class="technologies">Technologis used: Coq, Python, alectryon
-</p>
-            
-        </div>
+ </div>
+      
+        <p class="technologies">
+          Technologis used: Coq, Python, Latex, Alectryon.
+          </p>
+      
+    </div>
+  
     
-        
-        <div class="experience-item">
-            <div class="role">
-                Data Scientist intership
-            </div>
-            <div class="company">
-                <a href=https://factonics.com class="company">
-                    Factonics 
-                </a>
-                <span class="time">
-                    Sep 2019 -
-                    Jul 2020
-                </span>
-            </div> 
-            <div class="details"><dl>
+    
+    
+    
+    
+    <div class="experience-item">
+      <div class="role"> Data Scientist intership </div>
+      <div class="company">
+        <a href=https://factonics.com class="company">
+          Factonics
+        </a>
+        <span class="time">
+          Sep 2019 - Jul 2020
+        </span>
+      </div>
+      <div class="details"> <dl>
 <dt> Marchine Learning engeneer </dt>
   <dd> Literature review of performance measures for classification and NLP.</dd>
   <dd> Development of a large scale classification algorithm with blending
@@ -303,32 +372,64 @@ has been published at
   <dd> Deployment of AWS architecture for versioning and serving models for inference. </dd>
 </dl>
 <a href=/cv/documents/stage_Factonics_2020.pdf>Intership report</a>
-</div>
-            
-            <p class="technologies">Technologis used: Python, Docker, Tensorflow, Spacy
-</p>
-            
-        </div>
+ </div>
+      
+        <p class="technologies">
+          Technologis used: Python, Docker, Tensorflow, Spacy, AWS.
+          </p>
+      
+    </div>
+  
     
-        
-        <div class="experience-item">
-            <div class="role">
-                Experience in robotics laboratory
-            </div>
-            <div class="company">
-                <a href=https://www.seal.epita.fr class="company">
-                    SEAL (EPITA LSE) 
-                </a>
-                <span class="time">
-                    Jan 2019 -
-                    Jan 2020
-                </span>
-            </div> 
-            <div class="details">Design of a waterproof synchronized camera for the acquisition of stereo images underwater.
-The objective being to carry out a cartography of the sea bed with SLAM algorithm. </br>
+    
+    
+    
+    
+    <div class="experience-item">
+      <div class="role"> Experience in robotics laboratory </div>
+      <div class="company">
+        <a href=https://www.seal.epita.fr class="company">
+          SEAL (EPITA LSE)
+        </a>
+        <span class="time">
+          Jan 2019 - Jan 2020
+        </span>
+      </div>
+      <div class="details"> Design of a waterproof synchronized camera for the acquisition of
+stereo images underwater.
+The objective being to carry out a cartography of the sea bed with
+SLAM algorithm. </br>
 Participation in the ERL (European Robotics League) competition in Italy.
-</div>
-            
+ </div>
+      
+        <p class="technologies">
+          Technologis used: C++, Python, Fusion 360.
+          </p>
+      
+    </div>
+  
+</section>
+
+
+      
+
+
+
+
+<section class="publications">
+  <h2 class="title">Publications</h2>
+    
+      
+      
+      
+      
+      <div class="publication-item">
+        <div class="publication-title">
+          <a href="https://hal.science/hal-03404668">Hydras & Co.: Formalized mathematics in Coq for inspiration and entertainment</a>
+        </div>
+        <div class="authors">
+          Pierre Castéran, Jérémy Damour, Karl Palmskog, Clément Pit-Claudel, Théo Zimmermann.</div>
+        <div class="conference">JFLA 2022</div>
         </div>
     
 </section>
@@ -337,65 +438,161 @@ Participation in the ERL (European Robotics League) competition in Italy.
       
 
 
-<section class="education">
-    <div class="title">Education</div>
+
+
+<section class="teaching">
+  <h2 class="title">Teaching</h2>
+  
     
+    
+    
+    
+    
+    
+    <div class="teaching-item">
+      <span>
+        <div class="course">
+          Courses and labs, Application Security (Frama-C WP).
+          <span class="time">
+            2024
+            
+          </span>
+        </div>
+
+      <span class="university">
+        <span class="name"> Orleans </span> -
+        <span class="level"> Master 2 </span>
+        <span class="hours"> 7h </span>
+      </span>
+    </div>
+  
+    
+    
+    
+    
+    
+    
+    <div class="teaching-item">
+      <span>
+        <div class="course">
+          Private Tutoring in Computer Science
+          <span class="time">
+            2020
+            
+            - 2022
+            
+          </span>
+        </div>
+
+      <span class="university">
+        <span class="name"> Complétude </span> -
+        <span class="level"> Preparatory class </span>
+        <span class="hours"> 20h </span>
+      </span>
+    </div>
+  
+    
+    
+    
+    
+    
+    
+    <div class="teaching-item">
+      <span>
+        <div class="course">
+          Private tutoring in Mathematics and Physics
+          <span class="time">
+            2020
+            
+            - 2023
+            
+          </span>
+        </div>
+
+      <span class="university">
+        <span class="name"> Complétude </span> -
+        <span class="level"> College / High school. </span>
+        <span class="hours"> 50h </span>
+      </span>
+    </div>
+  
+</section>
+
+
+      
+
+
+
+
+<section class="education">
+  <div class="title">Education</div>
+    
+        
+        
+        
+        
         
         <div class="education-item">
                 <div class="degree">
-                
-                    <a href="https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=start">
-                
+                 <a href="https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=start"> 
                 M2 MPRI
                 </div>
             </a>
-            <div class="university">Université de Paris</div> 
-            <div class="time">
-        
-            2021 - 
-        
-            2023</div>
+            <div class="university">Université de Paris
+
+              <div class="time">
+                2021 - 2023
+              </div>
+            </div>
         <div class="details">Master 2 in computer science research.</div>
         </div>
     
         
+        
+        
+        
+        
         <div class="education-item">
                 <div class="degree">
-                
-                    <a href="http://www.informatique.univ-paris-diderot.fr/formations/masters/data/accueil">
-                
+                 <a href="http://www.informatique.univ-paris-diderot.fr/formations/masters/data/accueil"> 
                 M1 DATA
                 </div>
             </a>
-            <div class="university">Université de Paris</div> 
-            <div class="time">
-        
-            2020 - 
-        
-            2021</div>
+            <div class="university">Université de Paris
+
+              <div class="time">
+                2020 - 2021
+              </div>
+            </div>
         <div class="details">Master 1 specialized in data processing and analysis.</div>
         </div>
     
         
+        
+        
+        
+        
         <div class="education-item">
                 <div class="degree">
-                
-                    <a href="https://www.epita.fr/">
-                
+                 <a href="https://www.epita.fr/"> 
                 EPITA
                 </div>
             </a>
-            <div class="university">EPITA Paris</div> 
-            <div class="time">
-        
-            2018 - 
-        
-            2020</div>
+            <div class="university">EPITA Paris
+
+              <div class="time">
+                2018 - 2020
+              </div>
+            </div>
         <div class="details">IT Engineering school. </br>
 Specialized in picture analysis and synthesis in the 2nd year (IMAGE).
 </div>
         </div>
     
+        
+        
+        
+        
         
         <div class="education-item">
                 <div class="degree">
@@ -403,27 +600,13 @@ Specialized in picture analysis and synthesis in the 2nd year (IMAGE).
                 CPGE TSI
                 </div>
             </a>
-            <div class="university">Lycée Amiral Bouvet, La Réunion</div> 
-            <div class="time">
-        
-            2016 - 
-        
-            2018</div>
+            <div class="university">Lycée Amiral Bouvet, La Réunion
+
+              <div class="time">
+                2016 - 2018
+              </div>
+            </div>
         <div class="details">Preparatory class.</div>
-        </div>
-    
-        
-        <div class="education-item">
-                <div class="degree">
-                
-                BAC STI2D-ITEC
-                </div>
-            </a>
-            <div class="university">Lycée Pierre Poivre, La Réunion</div> 
-            <div class="time">
-        
-            2016</div>
-        <div class="details">Bac STI2D specialising in ITEC, with distinction</div>
         </div>
     
 </section>
@@ -432,86 +615,112 @@ Specialized in picture analysis and synthesis in the 2nd year (IMAGE).
       
 
 
+
+
 <section class="projects">
     <h2 class="title">Projects</h2>
     
     
-        <div class="project">
-            <span>
-                <a class="project-link" href="https://github.com/start974/raytracing-ascii">
-                    RayTracing-ascii
-                </a>
-            </span>
-            <span class="details">- Raytracing with ascii output or pixmap.
-</span>
-            </br>
-            <span class="details">(Ocaml)</span>
-        </div>
     
     
-        <div class="project">
-            <span>
-                <a class="project-link" href="https://gitlab.com/Shad_Saw/GLA-H">
-                    SSG
-                </a>
-            </span>
-            <span class="details">- Static website generator from Mardowns files.
-</span>
-            </br>
-            <span class="details">(JAVA)</span>
-        </div>
+    
+    <div class="project-item">
+      <span>
+        <a class="project-link" href="https://github.com/start974/start-lang">
+          start-lang
+        </a>
+        <a class="language" >
+          Rust
+        </a>
+      </span>
+      </br>
+      <span class="details">Interpreter of a functional language (Work in progress).</span>
+    </div>
     
     
-        <div class="project">
-            <span>
-                <a class="project-link" href="">
-                    42SH
-                </a>
-            </span>
-            <span class="details">- Programming a SHELL.
-</span>
-            </br>
-            <span class="details">(C)</span>
-        </div>
     
     
-        <div class="project">
-            <span>
-                <a class="project-link" href="">
-                    SPIDER
-                </a>
-            </span>
-            <span class="details">- Programming an HTTP serveur.
-</span>
-            </br>
-            <span class="details">(C++)</span>
-        </div>
+    
+    <div class="project-item">
+      <span>
+        <a class="project-link" href="https://github.com/start974/raytracing-ascii">
+          RayTracing-ascii
+        </a>
+        <a class="language" >
+          Ocaml
+        </a>
+      </span>
+      </br>
+      <span class="details">Raytracing with ascii output or pixmap.</span>
+    </div>
     
     
-        <div class="project">
-            <span>
-                <a class="project-link" href="">
-                    Bot - TIC-TAC-TOE
-                </a>
-            </span>
-            <span class="details">- Bot using minimax algorithm with alpha beta pruning.
-</span>
-            </br>
-            <span class="details">(C++)</span>
-        </div>
     
     
-        <div class="project">
-            <span>
-                <a class="project-link" href="">
-                    Bot - demineur
-                </a>
-            </span>
-            <span class="details">- Bot solved minesweeper grids online.
-</span>
-            </br>
-            <span class="details">(Python)</span>
-        </div>
+    
+    <div class="project-item">
+      <span>
+        <a class="project-link" href="https://gitlab.com/Shad_Saw/GLA-H">
+          SSG
+        </a>
+        <a class="language" >
+          JAVA
+        </a>
+      </span>
+      </br>
+      <span class="details">Static website generator from Mardowns files.</span>
+    </div>
+    
+    
+    
+    
+    
+    <div class="project-item">
+      <span>
+        <a class="project-link" href="">
+          42SH
+        </a>
+        <a class="language" >
+          C
+        </a>
+      </span>
+      </br>
+      <span class="details">Programming a SHELL.</span>
+    </div>
+    
+    
+    
+    
+    
+    <div class="project-item">
+      <span>
+        <a class="project-link" href="">
+          Bot - TIC-TAC-TOE
+        </a>
+        <a class="language" >
+          C++
+        </a>
+      </span>
+      </br>
+      <span class="details">Bot using minimax algorithm with alpha beta pruning.</span>
+    </div>
+    
+    
+    
+    
+    
+    <div class="project-item">
+      <span>
+        <a class="project-link" href="">
+          Bot - demineur
+        </a>
+        <a class="language" >
+          Python
+        </a>
+      </span>
+      </br>
+      <span class="details">Bot solved minesweeper grids online.</span>
+    </div>
     
 </section>
 
