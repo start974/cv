@@ -1,20 +1,6 @@
 lang: "en"
 icon: gb
 
-education:
-  4:
-    details: Master 2 in computer science research.
-  3:
-    details: Master 1 specialized in data processing and analysis.
-  2:
-    details: |
-      IT Engineering school. </br>
-      Specialized in picture analysis and synthesis in the 2nd year (IMAGE).
-  1:
-    details: Preparatory class.
-  0:
-    details: Bac STI2D specialising in ITEC, with distinction
-
 projects:
   title: Projects
   0:

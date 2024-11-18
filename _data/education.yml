@@ -1,38 +1,48 @@
-education:
-  - id: 4
-    degree: M2 MPRI
+title:
+  fr: Cursus Scolaire
+  en: Education
+list:
+  - degree: M2 MPRI
+    details:
+      fr: Master 2 de recherche en informatique.
+      en: Master 2 in computer science research.
     link: https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=start
     time:
       start: 2021-08-01T00:00:00Z
       end:   2023-12-01T00:00:00Z
     university: Université de Paris
 
-  - id: 3
-    degree: M1 DATA
+
+  - degree: M1 DATA
+    details:
+        fr: Master 1 spécialiser dans le traitement et l'analyse de donée.
+        en: Master 1 specialized in data processing and analysis.
     link: http://www.informatique.univ-paris-diderot.fr/formations/masters/data/accueil
     time:
       start: 2020-08-01T00:00:00Z
       end:   2021-06-01T00:00:00Z
     university: Université de Paris
 
-  - id: 2
-    degree: EPITA
+
+  - degree: EPITA
     link: https://www.epita.fr/
+    details:
+      fr: |
+        Ecole d'ingénieur en Informatique. <br />
+        Spécialité d'analyse et synthèse d'image en 2e année (Majeur IMAGE).
+      en: |
+        IT Engineering school. </br>
+        Specialized in picture analysis and synthesis in the 2nd year (IMAGE).
     time:
       start: 2018-07-01T00:00:00Z
       end:   2020-06-01T00:00:00Z
     university: EPITA Paris
 
-  #- id: 1
-    #degree: CPGE TSI
-    #time:
-      #start: 2016-07-01T00:00:00Z
-      #end:   2018-05-01T00:00:00Z
-    #university: Lycée Amiral Bouvet, La Réunion
-
-  #- id: 0
-    #degree: BAC STI2D-ITEC
-    #time:
-      #end: 2016-05-01T00:00:00Z
-    #university: Lycée Pierre Poivre, La Réunion
-    #details: Bac technologique avec mention bien.
+  - degree: CPGE TSI
+    details:
+      fr: Classe Preparatoire au grandes école.
+      en: Preparatory class.
+    time:
+      start: 2016-07-01T00:00:00Z
+      end:   2018-05-01T00:00:00Z
+    university: Lycée Amiral Bouvet, La Réunion

@@ -1,18 +1,6 @@
 lang: "fr"
 icon: fr
-education:
-  4:
-    details: Master 2 de recherche en informatique.
-  3:
-    details: Master 1 spécialiser dans le traitement et l'analyse de donée.
-  2:
-    details: |
-      Ecole d'ingénieur en Informatique. <br />
-      Spécialité d'analyse et synthèse d'image en 2e année (Majeur IMAGE).
-  1:
-    details: Classe Preparatoire au grandes école.
-  0:
-    details: Bac STI2D spécialité ITEC, mention Bien
+
 projects:
   title: Projets
   0:
