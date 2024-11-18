@@ -1,10 +1,5 @@
 lang: "fr"
 icon: fr
-language:
-  title: Languages
-  idioms:
-    - Francais
-    - Anglais
 skills:
   0:
     category: Language de programation

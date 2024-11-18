@@ -1,11 +1,5 @@
 lang: "en"
 icon: gb
-
-language:
-  title: Languages
-  idioms:
-    - French (mother tongue)
-    - English
 skills:
   0:
     category: Programming Language
