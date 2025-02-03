@@ -3,6 +3,15 @@ title:
   en: Publications
 
 list:
+  - title: "Formalisation d'une analyse de région pour Frama-C/WP"
+    link: https://hal.science/hal-04859489/
+    conference: JFLA 2025
+    authors:
+      - Jérémy Damour
+      - Allan Blanchard
+      - Loïc Correnson
+      - Frédéric Loulergue
+
   - title: "Hydras & Co.: Formalized mathematics in Coq for inspiration and entertainment"
     link: https://hal.science/hal-03404668
     conference: JFLA 2022
@@ -12,4 +21,3 @@ list:
       - Karl Palmskog
       - Clément Pit-Claudel
       - Théo Zimmermann
-
